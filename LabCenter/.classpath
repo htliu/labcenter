@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/agfa.jar"/>
+	<classpathentry kind="lib" path="lib/Helper.jar"/>
+	<classpathentry kind="lib" path="lib/HTTPClient.jar"/>
+	<classpathentry kind="lib" path="lib/jai_imageio_11.jar"/>
+	<classpathentry kind="lib" path="lib/KIASClientNew.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/soap.jar"/>
+	<classpathentry kind="lib" path="lib/xerces.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

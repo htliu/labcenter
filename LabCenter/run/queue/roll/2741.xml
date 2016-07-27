@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Roll>
+   <Version>2</Version>
+   <RollID>2741</RollID>
+   <Source>KIOSK</Source>
+   <Email/>
+   <RollDir>C:\LifePics\KioskShare\Upload</RollDir>
+   <Status>DELETED</Status>
+   <Hold>ERROR</Hold>
+   <LastError>Unable to release kiosk image '867280689.jpg': There are incomplete orders that need to use this kiosk image.</LastError>
+   <ReceivedDate>2016-06-27 07:16:20</ReceivedDate>
+   <RecmodDate>2016-07-04 11:05:22</RecmodDate>
+   <FailDateFirst>2016-06-27 10:17:09</FailDateFirst>
+   <FailDateLast>2016-07-04 10:04:19</FailDateLast>
+   <Item>
+      <Filename>867280689.jpg</Filename>
+      <Status>PENDING</Status>
+      <ImageID>867280689</ImageID>
+   </Item>
+   <ExtraFile>thumbnail\867280689.jpg</ExtraFile>
+   <ExtraFile>MedHigh\867280689.jpg</ExtraFile>
+</Roll>

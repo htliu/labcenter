@@ -1,0 +1,1445 @@
+2016-07-11 05:59:26  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:01:06  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:02:46  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:04:26  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:06:23  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:08:03  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:10:00  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:11:40  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:13:21  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:15:18  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:16:58  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:18:39  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:20:19  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:22:15  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:23:56  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:25:36  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:27:32  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:29:13  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:31:09  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:32:49  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:34:30  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:36:26  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:38:04  WARNING: Unable to report status to server: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.app.StatusNews$StatusNewsThread.doRun(StatusNews.java:130)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+
+2016-07-11 06:38:06  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:40:02  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:41:42  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:43:55  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:45:52  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:47:32  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:49:28  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:51:09  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:52:49  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:54:29  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:56:10  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:57:50  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 06:59:47  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 07:01:27  SEVERE: Error while getting order list: Error: Unable to get order list: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+com.lifepics.neuron.thread.CategorizedException: Error.
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:298)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTrigger(EntityThread.java:39)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: Unable to get order list.
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:28)
+	at com.lifepics.neuron.dendron.DownloadThread.doNonEntity(DownloadThread.java:293)
+	... 5 more
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	... 6 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.dendron.DownloadThread$GetList.run(DownloadThread.java:947)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 7 more
+
+2016-07-11 23:21:07  INFO: Created order 3734077.
+2016-07-11 23:21:07  INFO: Downloading order 3734077.
+2016-07-11 23:21:07  INFO: Getting order file.
+2016-07-11 23:21:12  INFO: Downloading order 3734077.
+2016-07-11 23:21:14  INFO: Reporting download complete.
+2016-07-11 23:21:15  INFO: Download complete.
+2016-07-11 23:21:19  INFO: Auto-printing order 3734077, found 3 eligible items.
+2016-07-11 23:21:19  INFO: Created job 13 for order 3734077 and queue 15 ('DNP DS80').
+2016-07-12 00:57:31  INFO: Beginning auto-update check.
+2016-07-12 00:59:02  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-12 02:26:20  SEVERE: Uploader can't proceed: The password on the setup screen isn't right.
+
+com.lifepics.neuron.thread.ThreadStopException: The password on the setup screen isn't right.
+	at com.lifepics.neuron.axon.UploadThread.throwInvalidPassword(UploadThread.java:1383)
+	at com.lifepics.neuron.axon.UploadThread.receiveNewImpl(UploadThread.java:1852)
+	at com.lifepics.neuron.axon.UploadThread.receiveNew(UploadThread.java:1811)
+	at com.lifepics.neuron.axon.UploadThread.receiveNew(UploadThread.java:1804)
+	at com.lifepics.neuron.axon.UploadThread.access$5400(UploadThread.java:70)
+	at com.lifepics.neuron.axon.UploadThread$GetPriorityList.receive(UploadThread.java:2426)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:115)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	at com.lifepics.neuron.axon.UploadThread.doNonEntityTrigger(UploadThread.java:258)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+
+2016-07-12 02:26:20  SEVERE: Unexpected error in upload handler, exiting: The password on the setup screen isn't right.
+
+com.lifepics.neuron.thread.ThreadStopException: The password on the setup screen isn't right.
+	at com.lifepics.neuron.axon.UploadThread.throwInvalidPassword(UploadThread.java:1383)
+	at com.lifepics.neuron.axon.UploadThread.receiveNewImpl(UploadThread.java:1852)
+	at com.lifepics.neuron.axon.UploadThread.receiveNew(UploadThread.java:1811)
+	at com.lifepics.neuron.axon.UploadThread.receiveNew(UploadThread.java:1804)
+	at com.lifepics.neuron.axon.UploadThread.access$5400(UploadThread.java:70)
+	at com.lifepics.neuron.axon.UploadThread$GetPriorityList.receive(UploadThread.java:2426)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:115)
+	at com.lifepics.neuron.net.RegulatedTransaction.run(RegulatedTransaction.java:49)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	at com.lifepics.neuron.net.DescribeHandler.run(DescribeHandler.java:24)
+	at com.lifepics.neuron.axon.UploadThread.doNonEntityTrigger(UploadThread.java:258)
+	at com.lifepics.neuron.thread.EntityThread.doNonEntityTryCatch(EntityThread.java:284)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:173)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+
+2016-07-12 11:36:41  INFO: Auto-purged job 9 in status COMPLETED.
+2016-07-12 11:36:41  INFO: Auto-purged job 10 in status COMPLETED.
+2016-07-12 11:36:41  INFO: Auto-purged order 3734072 in status COMPLETED.
+2016-07-12 12:36:41  INFO: Auto-purged job 11 in status COMPLETED.
+2016-07-12 12:36:41  INFO: Auto-purged order 3734074 in status COMPLETED.
+2016-07-13 00:39:01  INFO: Beginning auto-update check.
+2016-07-13 00:40:32  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '500', message 'Internal Server Error').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '500', message 'Internal Server Error').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-13 11:23:14  INFO: Created order 3734081.
+2016-07-13 11:23:14  INFO: Downloading order 3734081.
+2016-07-13 11:23:14  INFO: Getting order file.
+2016-07-13 11:23:16  INFO: Downloading order 3734081.
+2016-07-13 11:23:20  INFO: Reporting download complete.
+2016-07-13 11:23:20  INFO: Download complete.
+2016-07-13 11:23:24  INFO: Auto-printing order 3734081, found 1 eligible items.
+2016-07-14 01:50:30  INFO: Beginning auto-update check.
+2016-07-14 01:52:01  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-14 11:16:14  INFO: Created order 3734082.
+2016-07-14 11:16:14  INFO: Downloading order 3734082.
+2016-07-14 11:16:14  INFO: Getting order file.
+2016-07-14 11:16:35  INFO: Downloading order 3734082.
+2016-07-14 11:16:38  INFO: Reporting download complete.
+2016-07-14 11:16:39  INFO: Download complete.
+2016-07-14 11:16:42  INFO: Auto-printing order 3734082, found 3 eligible items.
+2016-07-14 11:17:21  INFO: Manual print request for entire order 3734082.
+2016-07-14 11:17:21  INFO: Created job 14 for order 3734082 and queue 14 ('DNP DS40').
+2016-07-15 01:42:30  INFO: Beginning auto-update check.
+2016-07-15 01:44:01  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-15 07:14:12  INFO: Created order 3734084.
+2016-07-15 07:14:12  INFO: Downloading order 3734084.
+2016-07-15 07:14:12  INFO: Getting order file.
+2016-07-15 07:14:33  INFO: Downloading order 3734084.
+2016-07-15 07:19:22  INFO: User paused order 3734084.
+2016-07-15 07:19:22  INFO: Created order 3734085.
+2016-07-15 07:19:22  INFO: Downloading order 3734085.
+2016-07-15 07:19:22  INFO: Getting order file.
+2016-07-15 07:19:23  INFO: Downloading order 3734085.
+2016-07-15 07:19:25  INFO: Reporting download complete.
+2016-07-15 07:19:26  INFO: Download complete.
+2016-07-15 07:19:29  INFO: Auto-printing order 3734085, found 2 eligible items.
+2016-07-15 07:19:41  INFO: User unpaused order 3734084 from hold condition USER.
+2016-07-15 07:19:41  INFO: Downloading order 3734084.
+2016-07-15 07:22:42  INFO: Reporting download complete.
+2016-07-15 07:22:42  INFO: Download complete.
+2016-07-15 07:22:46  INFO: Auto-printing order 3734084, found 999 eligible items.
+2016-07-15 07:23:01  INFO: Manual print request for entire order 3734084.
+2016-07-15 07:23:01  INFO: Created job 15 for order 3734084 and queue 17 ('DVD').
+2016-07-15 07:23:01  SEVERE: Error while formatting job 15: Unable to deploy CD burner application: The server has no CD burner application specified for this location.
+
+java.lang.Exception: Unable to deploy CD burner application.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:82)
+	at com.lifepics.neuron.dendron.FormatThread.doJob(FormatThread.java:115)
+	at com.lifepics.neuron.dendron.JobThread.doEntity(JobThread.java:47)
+	at com.lifepics.neuron.thread.EntityThread.doEntityStatus(EntityThread.java:306)
+	at com.lifepics.neuron.thread.EntityThread.doEntityTryCatch(EntityThread.java:247)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:175)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: The server has no CD burner application specified for this location.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:78)
+	... 7 more
+
+2016-07-15 07:26:15  INFO: Manual print request for entire order 3734084.
+2016-07-15 07:26:16  INFO: Created job 16 for order 3734084 and queue 17 ('DVD').
+2016-07-15 07:26:16  SEVERE: Error while formatting job 16: Unable to deploy CD burner application: The server has no CD burner application specified for this location.
+
+java.lang.Exception: Unable to deploy CD burner application.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:82)
+	at com.lifepics.neuron.dendron.FormatThread.doJob(FormatThread.java:115)
+	at com.lifepics.neuron.dendron.JobThread.doEntity(JobThread.java:47)
+	at com.lifepics.neuron.thread.EntityThread.doEntityStatus(EntityThread.java:306)
+	at com.lifepics.neuron.thread.EntityThread.doEntityTryCatch(EntityThread.java:247)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:175)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: The server has no CD burner application specified for this location.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:78)
+	... 7 more
+
+2016-07-15 08:56:10  INFO: Manual print request for entire order 3734084.
+2016-07-15 08:56:10  INFO: Created job 17 for order 3734084 and queue 17 ('DVD').
+2016-07-15 08:56:10  SEVERE: Error while formatting job 17: Unable to deploy CD burner application: The server has no CD burner application specified for this location.
+
+java.lang.Exception: Unable to deploy CD burner application.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:82)
+	at com.lifepics.neuron.dendron.FormatThread.doJob(FormatThread.java:115)
+	at com.lifepics.neuron.dendron.JobThread.doEntity(JobThread.java:47)
+	at com.lifepics.neuron.thread.EntityThread.doEntityStatus(EntityThread.java:306)
+	at com.lifepics.neuron.thread.EntityThread.doEntityTryCatch(EntityThread.java:247)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:175)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: The server has no CD burner application specified for this location.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:78)
+	... 7 more
+
+2016-07-15 08:58:03  INFO: Manual print request for entire order 3734084.
+2016-07-15 08:58:03  INFO: Created job 18 for order 3734084 and queue 17 ('DVD').
+2016-07-15 08:58:04  SEVERE: Error while formatting job 18: Unable to deploy CD burner application: The server has no CD burner application specified for this location.
+
+java.lang.Exception: Unable to deploy CD burner application.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:82)
+	at com.lifepics.neuron.dendron.FormatThread.doJob(FormatThread.java:115)
+	at com.lifepics.neuron.dendron.JobThread.doEntity(JobThread.java:47)
+	at com.lifepics.neuron.thread.EntityThread.doEntityStatus(EntityThread.java:306)
+	at com.lifepics.neuron.thread.EntityThread.doEntityTryCatch(EntityThread.java:247)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:175)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: The server has no CD burner application specified for this location.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:78)
+	... 7 more
+
+2016-07-15 09:01:28  INFO: Manual print request for entire order 3734082.
+2016-07-15 09:01:28  INFO: Created job 19 for order 3734082 and queue 14 ('DNP DS40').
+2016-07-15 09:01:42  INFO: Manual print request for entire order 3734084.
+2016-07-15 09:01:42  INFO: Created job 20 for order 3734084 and queue 17 ('DVD').
+2016-07-15 09:01:44  SEVERE: Error while formatting job 20: Unable to deploy CD burner application: The server has no CD burner application specified for this location.
+
+java.lang.Exception: Unable to deploy CD burner application.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:82)
+	at com.lifepics.neuron.dendron.FormatThread.doJob(FormatThread.java:115)
+	at com.lifepics.neuron.dendron.JobThread.doEntity(JobThread.java:47)
+	at com.lifepics.neuron.thread.EntityThread.doEntityStatus(EntityThread.java:306)
+	at com.lifepics.neuron.thread.EntityThread.doEntityTryCatch(EntityThread.java:247)
+	at com.lifepics.neuron.thread.EntityThread.loopFind(EntityThread.java:175)
+	at com.lifepics.neuron.thread.EntityThread.doRun(EntityThread.java:91)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: java.lang.Exception: The server has no CD burner application specified for this location.
+	at com.lifepics.neuron.dendron.FormatBurn.formatStoppable(FormatBurn.java:78)
+	... 7 more
+
+2016-07-16 01:20:19  INFO: Beginning auto-update check.
+2016-07-16 01:21:50  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-17 00:12:16  INFO: Beginning auto-update check.
+2016-07-17 00:13:47  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-18 01:21:25  INFO: Beginning auto-update check.
+2016-07-18 01:22:56  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-18 14:22:07  INFO: Created order 3734087.
+2016-07-18 14:22:07  INFO: Downloading order 3734087.
+2016-07-18 14:22:07  INFO: Getting order file.
+2016-07-18 14:22:10  INFO: Downloading order 3734087.
+2016-07-18 14:22:10  INFO: Reporting download complete.
+2016-07-18 14:22:11  INFO: Download complete.
+2016-07-18 14:22:14  INFO: Auto-printing order 3734087, found 1 eligible items.
+2016-07-19 00:08:03  INFO: Beginning auto-update check.
+2016-07-19 00:09:34  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-20 00:38:59  INFO: Beginning auto-update check.
+2016-07-20 00:40:29  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-21 02:08:49  INFO: Beginning auto-update check.
+2016-07-21 02:10:20  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-22 02:54:33  INFO: Beginning auto-update check.
+2016-07-22 02:56:04  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-23 01:35:12  INFO: Beginning auto-update check.
+2016-07-23 01:36:43  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-24 00:01:00  INFO: Beginning auto-update check.
+2016-07-24 00:02:31  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-25 01:39:52  INFO: Beginning auto-update check.
+2016-07-25 01:41:23  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+
+2016-07-26 00:25:17  INFO: Beginning auto-update check.
+2016-07-26 00:26:48  SEVERE: Error during auto-update check: Unable to preload, can't read desired state: Retry failed: HTTP error (code '404', message 'Not Found').
+
+java.lang.Exception: Unable to preload, can't read desired state.
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:73)
+	at com.lifepics.neuron.app.RestartThread.doRun(RestartThread.java:116)
+	at com.lifepics.neuron.thread.StoppableThread.run(StoppableThread.java:171)
+Caused by: com.lifepics.neuron.thread.PauseRetryException: Retry failed.
+	at com.lifepics.neuron.net.DiagnoseHandler.pause(DiagnoseHandler.java:214)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:105)
+	at com.lifepics.neuron.app.AutoUpdate.preload(AutoUpdate.java:70)
+	... 2 more
+Caused by: com.lifepics.neuron.net.HTTPException: HTTP error (code '404', message 'Not Found').
+	at com.lifepics.neuron.net.HTTPTransaction.checkResponseCode(HTTPTransaction.java:173)
+	at com.lifepics.neuron.net.HTTPTransaction.run(HTTPTransaction.java:114)
+	at com.lifepics.neuron.net.DefaultHandler.run(DefaultHandler.java:17)
+	at com.lifepics.neuron.net.DiagnoseHandler.run(DiagnoseHandler.java:103)
+	... 3 more
+

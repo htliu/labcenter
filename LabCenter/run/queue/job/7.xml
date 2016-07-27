@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Job>
+   <Version>0</Version>
+   <JobID>7</JobID>
+   <QueueID>14</QueueID>
+   <OrderID>3734041</OrderID>
+   <OverrideQuantity>1</OverrideQuantity>
+   <Status>SENT</Status>
+   <Hold>NONE</Hold>
+   <RecmodDate>2016-05-31 11:22:58</RecmodDate>
+   <Ref>
+      <Filename>image.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_2.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_3.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_4.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Format>DNP DIRECT</Format>
+</Job>

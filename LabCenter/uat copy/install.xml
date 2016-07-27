@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Install>
+   <Version>1</Version>
+   <DiagnoseConfig>
+      <Version>2</Version>
+      <PauseRetry>false</PauseRetry>
+      <PauseRetryInterval-Millis>3600000</PauseRetryInterval-Millis>
+      <PauseRetryLimit-Millis>604800000</PauseRetryLimit-Millis>
+      <DownPollInterval-Millis>60000</DownPollInterval-Millis>
+      <DownRetriesBeforeNotification>0</DownRetriesBeforeNotification>
+      <DownRetriesEvenIfNotDown>5</DownRetriesEvenIfNotDown>
+      <SiteURLs/>
+      <NetURLs/>
+      <NetFailLimit>1</NetFailLimit>
+      <TimeoutInterval-Millis>1000</TimeoutInterval-Millis>
+      <StartupRetryInterval-Millis>5000</StartupRetryInterval-Millis>
+      <StartupRetries>2</StartupRetries>
+   </DiagnoseConfig>
+   <DefaultTimeoutInterval-Millis>300000</DefaultTimeoutInterval-Millis>
+   <Context>
+      <Variable Name="server" Value="https://services.lifepics.com/LabCenterUpdates/Install/LifePics"/>
+      <Variable Name="lcserv" Value="https://services.lifepics.com/LabCenterUpdates"/>
+      <Variable Name="version" Value="LabCenter_7_7_6.jar"/>
+      <Variable Name="loc" Value="210911"/>
+      <Variable Name="config" Value="meijer-noritsu.xml"/>
+   </Context>
+   <File>
+      <Method>DOWNLOAD</Method>
+      <Src>[server]/Helper.jar</Src>
+      <Dest>:Helper.jar</Dest>
+      <VerifySize>4120</VerifySize>
+      <Checksum>5C4D4271</Checksum>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>IMPORT</Method>
+      <Dest>:info.xml</Dest>
+      <Bind Name="loc" Path="Info/Location"/>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>QUERY</Method>
+      <Src>https://api.lifepics.com/closed/LCService.asmx/GetFulfillmentType?locationID=[u-loc]&amp;nameDefault=config-vpd.xml</Src>
+      <Dest>get config</Dest>
+      <Bind Name="config" Path="InstallInfo/ConfigFileName"/>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>DOWNLOAD</Method>
+      <Src>https://api.lifepics.com/closed/PreprocessConfigFile.aspx?locationID=[u-loc]&amp;type=LifePics&amp;name=[u-config]</Src>
+      <Dest>config.xml</Dest>
+      <VerifyXML>true</VerifyXML>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>EXPORT</Method>
+      <Dest>config.xml</Dest>
+      <Bind Name="loc" Path="Config/MerchantConfig/Merchant"/>
+      <Bind Name="version" Path="Config/AutoUpdateConfig/LabCenter/CurrentVersion"/>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>DOWNLOAD</Method>
+      <Src>[server]/run.jar</Src>
+      <Dest>run.jar</Dest>
+      <VerifySize>980</VerifySize>
+      <Checksum>C66FC50C</Checksum>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>EXTRACT ALL</Method>
+      <Src>run.jar</Src>
+      <Dest/>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>DELETE</Method>
+      <Dest>run.jar</Dest>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>DOWNLOAD</Method>
+      <Src>[lcserv]/LabCenter_7_7_6.jar</Src>
+      <Dest>:LabCenter_7_7_6.jar</Dest>
+      <VerifySize>7070313</VerifySize>
+      <Checksum>B079A933</Checksum>
+      <Type>SETUP</Type>
+      <Done>true</Done>
+   </File>
+   <File>
+      <Method>INVOKE</Method>
+      <Dest>:Helper.jar</Dest>
+      <Target>com.lifepics.neuron.helper.Helper.makeInstallDirs</Target>
+      <In>config.xml</In>
+      <Done>true</Done>
+   </File>
+</Install>

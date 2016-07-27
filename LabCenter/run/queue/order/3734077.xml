@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Order>
+   <Version>3</Version>
+   <OrderID>3734077</OrderID>
+   <OrderDir>C:\LifePics\LabCenter\run\storage2\3734077</OrderDir>
+   <Status>IN PROGRESS</Status>
+   <Hold>NONE</Hold>
+   <RecmodDate>2016-07-11 23:21:19</RecmodDate>
+   <FirstName>te</FirstName>
+   <LastName>te</LastName>
+   <Email>te@te.com</Email>
+   <LPCustomerID>10959556</LPCustomerID>
+   <Phone>(120) 345-6789</Phone>
+   <DealerName>Meijer #19</DealerName>
+   <Subtotal>2.58</Subtotal>
+   <DiscountFreePrints>0.00</DiscountFreePrints>
+   <DiscountCredit>0.00</DiscountCredit>
+   <DiscountPercent>0.00</DiscountPercent>
+   <DiscountPermanent>0.00</DiscountPermanent>
+   <ShippingAmount>0.00</ShippingAmount>
+   <TaxAmount>0.15</TaxAmount>
+   <GrandTotal>2.73</GrandTotal>
+   <Company/>
+   <Street1/>
+   <Street2/>
+   <City/>
+   <State/>
+   <ZipCode/>
+   <Country/>
+   <ShipCompany/>
+   <ShipStreet1/>
+   <ShipStreet2/>
+   <ShipCity/>
+   <ShipState/>
+   <ShipZipCode/>
+   <ShipCountry/>
+   <ShipMethod>
+      <Name>PICKUP at Meijer #19</Name>
+      <Product>4x6 Greeting Card (Print to Store) Glossy</Product>
+      <Product>4x6 Print (Print to Store) Glossy</Product>
+      <Product>6x8 Print (Print to Store) Glossy</Product>
+   </ShipMethod>
+   <InvoiceDate>2016-07-12 00:19:05 -0600</InvoiceDate>
+   <DueStatus>NONE</DueStatus>
+   <Format>FLAT</Format>
+   <Item>
+      <Filename>image.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image_2.jpg</Filename>
+      <Status>IN PROGRESS</Status>
+      <Sku>60101-79 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>FrontPage.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>65001-13 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <File>
+      <Filename>image.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <DownloadURL>local:j=867305491&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+   <File>
+      <Filename>image_2.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <OriginalFilename>image.jpg</OriginalFilename>
+      <DownloadURL>local:j=867305492&amp;q=80&amp;dpi=300&amp;pw=6.0000&amp;ph=8.0000</DownloadURL>
+   </File>
+   <File>
+      <Filename>FrontPage.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <DownloadURL>http://staging.opie.lifepics.com/OPDisplay.aspx?i=F1B3DC1F6A3895A3CA1FC13A7614FA36FC9136A23B0C42975EEB6FBF9F51EF08&amp;f=FrontPage.jpg</DownloadURL>
+   </File>
+</Order>

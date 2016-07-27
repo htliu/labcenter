@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Order>
+   <Version>3</Version>
+   <OrderID>3734040</OrderID>
+   <OrderDir>C:\LifePics\LabCenter\run\storage2\3734040</OrderDir>
+   <Status>IN PROGRESS</Status>
+   <Hold>NONE</Hold>
+   <RecmodDate>2016-05-31 11:17:24</RecmodDate>
+   <FirstName>Testing</FirstName>
+   <LastName>Lifepics</LastName>
+   <Email>lifepicstestorders@gmail.com</Email>
+   <LPCustomerID>10956261</LPCustomerID>
+   <Phone>123456</Phone>
+   <SpecialInstructions>LIFEPICS TEST ORDER</SpecialInstructions>
+   <DealerName>Meijer #19</DealerName>
+   <Subtotal>0.30</Subtotal>
+   <DiscountFreePrints>0.00</DiscountFreePrints>
+   <DiscountCredit>0.00</DiscountCredit>
+   <DiscountPercent>0.00</DiscountPercent>
+   <DiscountPermanent>0.00</DiscountPermanent>
+   <ShippingAmount>0.00</ShippingAmount>
+   <TaxAmount>0.02</TaxAmount>
+   <GrandTotal>0.32</GrandTotal>
+   <Company/>
+   <Street1/>
+   <Street2/>
+   <City/>
+   <State/>
+   <ZipCode/>
+   <Country/>
+   <ShipCompany/>
+   <ShipStreet1/>
+   <ShipStreet2/>
+   <ShipCity/>
+   <ShipState/>
+   <ShipZipCode/>
+   <ShipCountry/>
+   <ShipMethod>
+      <Name>PICKUP at Meijer #19</Name>
+      <Product>4x6 Print (Print to Store) Glossy</Product>
+   </ShipMethod>
+   <InvoiceDate>2016-05-31 12:16:50 -0600</InvoiceDate>
+   <DueStatus>NONE</DueStatus>
+   <Format>FLAT</Format>
+   <Item>
+      <Filename>image.jpg</Filename>
+      <Status>IN PROGRESS</Status>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <File>
+      <Filename>image.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <DownloadURL>http://staging.opie.lifepics.com/OPDisplay.aspx?i=85D0DA7E55A04F3930CBD6046AE109135F94F76243F5BF351A98F5ED6BB563B8&amp;q=80&amp;dpi=300</DownloadURL>
+   </File>
+</Order>

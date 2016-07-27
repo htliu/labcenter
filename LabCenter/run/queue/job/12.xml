@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Job>
+   <Version>0</Version>
+   <JobID>12</JobID>
+   <QueueID>14</QueueID>
+   <OrderID>3734048</OrderID>
+   <Status>SENT</Status>
+   <Hold>NONE</Hold>
+   <RecmodDate>2016-07-08 09:36:49</RecmodDate>
+   <Ref>
+      <Filename>image.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_2.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_3.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_4.jpg</Filename>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_5.jpg</Filename>
+      <Sku>60101-12 Finish Matte</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_6.jpg</Filename>
+      <Sku>60101-12 Finish Matte</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Ref>
+      <Filename>image_7.jpg</Filename>
+      <Sku>60101-12 Finish Matte</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Format>DNP DIRECT</Format>
+</Job>

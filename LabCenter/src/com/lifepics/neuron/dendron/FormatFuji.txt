@@ -1,0 +1,451 @@
+CONVERT_TO_GREYSCALE=no
+COLOR_SPACE=RGB
+TARGET_PLATFORM=pc
+FILE_FORMAT=.JPG;85
+HIRES_PROOF = PRINTER:DPC 1
+ELEM_A= 1.0000000
+ELEM_B= 0.0000000
+ELEM_C= 0.0000000
+ELEM_D= 1.0000000
+ELEM_E= 0.0000000
+ELEM_F= 0.0000000
+OUTPUT_WIDTH=2400
+OUTPUT_HEIGHT=3000
+WHITE_POINT=[F0000000000000FFFFFFFF800100016400]
+BLACK_POINT=[00000064000000000000FFFFFFFF8001000100]
+NEUTRAL_POINT=[000000000000FFFFFFFF80010001]
+OUTPUT_LUT=[010000000004000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D
+5E5F606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F808182838485868788898A8B8C8D8E8F909192939495969798999A9B9C9D9E9FA0A1A2A3A4A5A6A7A8A9AAABACADAEAFB0B1B2B3B4B5B6B7B8B9BABBBCBDBEBFC0C1
+C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDFE0E1E2E3E4E5E6E7E8E9EAEBECEDEEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFEFF000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F202122232425
+262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D5E5F606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F80818283848586878889
+8A8B8C8D8E8F909192939495969798999A9B9C9D9E9FA0A1A2A3A4A5A6A7A8A9AAABACADAEAFB0B1B2B3B4B5B6B7B8B9BABBBCBDBEBFC0C1C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDFE0E1E2E3E4E5E6E7E8E9EAEBECED
+EEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFEFF000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F404142434445464748494A4B4C4D4E4F5051
+52535455565758595A5B5C5D5E5F606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F808182838485868788898A8B8C8D8E8F909192939495969798999A9B9C9D9E9FA0A1A2A3A4A5A6A7A8A9AAABACADAEAFB0B1B2B3B4B5
+B6B7B8B9BABBBCBDBEBFC0C1C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDFE0E1E2E3E4E5E6E7E8E9EAEBECEDEEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFEFF000102030405060708090A0B0C0D0E0F10111213141516171819
+1A1B1C1D1E1F202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D5E5F606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D
+7E7F808182838485868788898A8B8C8D8E8F909192939495969798999A9B9C9D9E9FA0A1A2A3A4A5A6A7A8A9AAABACADAEAFB0B1B2B3B4B5B6B7B8B9BABBBCBDBEBFC0C1C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDFE0E1
+E2E3E4E5E6E7E8E9EAEBECEDEEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFEFF0000]
+OUTPUT_DPI=300
+SHARPEN=0;3;0;0;0;0.000;0.000;0
+Begin_Procedure = _Postprocess()
+/* Frontier._Postprocess
+*/
+now = Format( "%tm/%td/%tY %tH:%tM:%tS" )
+retmsg = format("FD=%s,R=%s,P=%s-%s,Q=%s,F=%s,U=%s,D=%s", Recnum,Jobrec,packagecode,Ptype ,qty , Imagefile, unitnum,now)
+MessageToClient( 6, retmsg , "Print complete" )
+
+if ( endOrder ) {
+    jobh = FindJob( 2543, orderID )
+    SetJobFields( jobh, 2541, "Ready" )
+    BagLabel( product, name, orderID, Folio, GuestID, Room, Total )
+}
+
+
+End_Procedure
+Begin_Procedure = _Preprocess()
+/* Frontier._Preprocess - Find the product code, print size and image placements
+*/
+global ps = FileRead( %LocalMachine\Software\Agt\ProLab\PrintDataFile )
+global sf = IniGetField( ps, printCode, "scale" )
+if ( sf <= 0 ) { sf = 1 }
+global productCode = IniGetField( ps, printCode, "ProductCode" )
+global PrintSize = inigetfield( ps, printcode, "PrintSize")
+global logoMode = inigetfield( ps, printcode, "mode")
+global center = inigetfield( ps, printcode, "center")
+
+orderid = Trim(orderid)
+layout = IniGetField( ps, printCode, "layout" )
+if ( layout ) {
+    n = LoadLayout( "c:\agt\layouts\" + layout + ".txt", 1 )
+    if ( n <= 0 ) {
+        return "Error:Failed to load layout: " + layout
+    }
+}
+
+return PreparePage() // <-- Loaded dynamically
+
+// Continue on to main() for the actual rendering
+
+
+End_Procedure
+Begin_Procedure = main(%filename[999], %14,%origfile[0])
+/* Frontier.main - Render all images for a sheet
+*/
+
+if ( endOrder ) {
+    flush = 1
+}
+if ( onPage ) {
+    %filename[0] = %filename[onPage]
+ } else {
+    SetColor( 255,255,255 )
+    FillBox()
+    onPage = 0
+}
+RenderPage()
+if ( %filename[++onPage] ) {
+    ContinuePrinting()
+ } else {
+    SetParameter("flush",flush)
+}
+
+Orig=%origfile[0]
+if(Orig == ""){
+   Orig = Imagefile
+}
+// Frontier printer details
+Retailer = %LocalMachine\Software\AGT\portrait\Retailer
+StoreID = %LocalMachine\Software\AGT\portrait\StoreID
+Date = DateFormat("M/d/yyyy")
+
+back1 = Format("Order No-%s %s", orderid, separate(Orig,2))
+back2 = Format("%s,%s", Retailer,Date)
+
+setparameter("Imagetable;Backprint1",left(back1,40))
+setparameter("Imagetable;Backprint2",left(back2,40))
+if ( qty ) {
+    setparameter("Imagetable;sheets",qty)
+}
+//setparameter("Imagetable;Size",Productcode)
+setparameter("Ordertable;OrderID",orderid)
+if ( center == "off" ) {
+    SetParameter( "center", 0 )
+}
+// Continue on to _Postprocess
+
+
+End_Procedure
+Begin_Procedure = _Submit(%2510)
+// Frontier._Submit
+// Variables to pass in:
+//        printCode - To select a print format
+//        id - Returned to client when processing is complete (see _Postprocess).
+//
+
+Thumbnail = "c:\agt\nofile.jpg"
+psFile = %LocalMachine\Software\AGT\InstallDir + "datafiles\printsizes.txt"
+delete %output
+
+if ( printCode != "" ) {
+    ps = FileRead( psFile )
+    printer = IniGetField( ps, printCode, "output" )
+    if (printer != "" ) {
+        %output = printer
+    }
+    return
+}
+orderID = %2510
+printSizes = ps = FileRead( psFile )
+printcodes = displayCodes = ""
+while ( (ps = Stream( printSizes )) != %EOF ) {
+    if ( Left( ps, 1 ) == "[" ) {
+        printCode = Mid( ps, 1, Length( ps ) - 2 )
+    }
+    if ( Left( ps, 6 ) == "title=" ) {
+        printcodes += (printcodes == "") ? printCode : ";" + printCode
+        displayCodes += (displayCodes == "") ? Mid( ps, 6 ) : ";" + Mid( ps, 6 )
+    }
+}
+
+dlg = Dialog( "Manual Package Entry" )
+
+numbers   = "1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;50;75;100"
+positions = "LR;UC;UR;LL;LC;UL"
+colorMode = 0
+logo      = ""
+position  = 0
+qty       = 0
+DialogInputDropdown( dlg, "Package Code: ", printcode, 100, displaycodes)
+DialogText( dlg, "" )
+DialogInputDropdown( dlg, "Quantity: ", qty, 100, numbers)
+DialogText( dlg, "" )
+DialogInputRadio( dlg, "Color Mode:", colorMode, "Color", "Black && White", "Sepia" )
+//DialogInput( dlg, "Logo", logo, 200, 1, "DoModalFile", "*", "Select Logo", "TIFF Files (*.tif) | *.tif" )
+//DialogInputDropdown( dlg, "Position: ", position, 100, positions )
+
+if ( DoModal( dlg ) ) {
+    packagecode = chopstring( displaycodes, printcode, ";")
+    printcode = chopstring( printcodes, printcode, ";")
+    position = ChopString( positions, position, ";" )
+    ps = FileRead( psFile )
+    printer = IniGetField( ps, printCode, "output" )
+    if ( printer != "" ) {
+        %output = printer
+    }
+    qty = chopstring( numbers, qty , ";" )
+     Flush = 1
+ } else {
+    return "Cancel"
+}
+
+
+End_Procedure
+Begin_Procedure = PreparePage()
+
+global DPI = Number( IniGetField( ps, printCode, "dpi" ) )
+if ( DPI <= 0 ) {
+    DPI = 300 // <-- THIS MUST BE SET TO THE ACTUAL PRINTER DPI
+}
+
+// Get the width & height of the sheet and set the output size accordingly
+w = Number( IniGetField( ps, printCode, "w" ) )
+h = Number( IniGetField( ps, printCode, "h" ) )
+
+SetVar( "outputSize", w * DPI / sf, h * DPI / sf )
+
+// Get the print placements
+n=0
+while ( 1 ) {
+    global p[n] = IniGetField( ps, printCode, Format( "p%s", n ) )
+    if ( p[n++] == "" ) {
+        break
+    }
+}
+
+End_Procedure
+Begin_Procedure = RenderPage()
+
+global imagefile = Separate( FindHighRes( %filename[0] ), 1 )
+SetColor( 255,255,255 )
+for ( i=0; 1; i++ ) {
+    xl = Number( ChopString( p[i], 0 ) ) * DPI / sf
+    xt = Number( ChopString( p[i], 1 ) ) * DPI / sf
+    xr = Number( ChopString( p[i], 2 ) ) * DPI / sf
+    xb = Number( ChopString( p[i], 3 ) ) * DPI / sf
+    if ( xl >= xr ) { break }
+
+    angle = Number( ChopString( p[i], 4 ) )
+    printSpec = ChopString( p[i], 5 )
+    area = (xr - xl) * (xb - xt)
+    if ( area != saveArea ) {
+        saveArea = area
+        if ( !FunctionExists(printSpec) ) {
+            printSpec = "DrawImage"
+        }
+        direct = Call( printSpec, xl, xt, xr, xb )
+    }
+
+    if ( !direct ) {
+        if ( %Origin.Width == (xr - xl) ) {
+            CopyImageToOutput( xl, xt, xr, xb )
+        } else {
+            CopyImageToOutput( xl, xt, xr, xb, 90 )
+        }
+    }
+}
+
+SetTempTile()
+SetOrigin()
+
+SetColor( 255,255,255 )
+for ( i=0; 1; i++ ) {
+    xl = Number( ChopString( p[i], 0 ) ) * DPI / sf
+    xt = Number( ChopString( p[i], 1 ) ) * DPI / sf
+    xr = Number( ChopString( p[i], 2 ) ) * DPI / sf
+    xb = Number( ChopString( p[i], 3 ) ) * DPI / sf
+    if ( xl >= xr ) { break }
+    SetOrigin( xl<=0 ? -2 : xl,
+                  xt<=0 ? -2 : xt,
+                  xr>=%Origin.right ? xr + 2 : xr,
+                  xb>=%Origin.bottom ? xb + 2 : xb )
+    Frame(2)
+}
+
+Ptype = "Color"
+switch ( colorMode ) {
+    case 1: {
+        Monochrome( 0, 0, 0, 255, 255, 255 )
+        Ptype = "B/W"
+        break
+    }
+
+    case 2: {
+        Monochrome( 55,20,0,255,255,255,220 )
+        Ptype = "Sepia"
+        break
+    }
+}
+
+End_Procedure
+Begin_Procedure = DrawImage(l,t,r,b)
+
+SetImageVariable( %filename[0], %filename[0] )
+SetImageParams( %filename[0] )
+if ( colorMode == 1 ) {
+      z = SetAdjustment( "CalOffset", - %LocalMachine\Software\Agt\ProLab\BWdensity, 1 )
+      TRACE( Format( "CalOffset: %s", z ) )
+}
+
+pageLand = (r-l) > (b-t)
+imgLand = Aspect( %filename[0] ) > 110
+if ( pageLand == imgLand ) {
+    w = r - l
+    h = b - t
+ } else {
+    w = b - t
+    h = r - l
+}
+
+direct = (w == %OutputWidth) && (h == %OutputHeight)
+if ( !direct ) {
+    SetTempTile( w, h )
+}
+
+SetOrigin( 0, 0, w, h )
+LoadImage( FindHighRes( %filename[0] ), 0, 2 )
+DrawLogo()
+SetOrigin( 0, 0, w, h )
+
+return direct
+
+End_Procedure
+Begin_Procedure = DrawLogo()
+if ( %Origin.Height > %Origin.Width ) {
+    iH = %Origin.Height / dpi
+ } else {
+    iH = %Origin.Width / dpi
+}
+
+ls[10] = 100
+ls[7] = 90
+ls[6] = 90
+ls[5] = 80
+ls[3] = 80
+ls[2] = 70
+
+if ( logoMode == "overlay" ) {
+    LoadMaskImage( logo, 1, 255 )
+ } else {
+    if ( ls[iH] > 0 ) {
+        logoW = GetMaxImageWidth( logo ) * ls[iH] / 100
+        logoH = GetMaxImageHeight( logo ) * ls[iH] / 100
+    }
+
+    if ( logoW && logoH ) {
+        l = t = 0
+        switch ( position ) {
+            case "UC": {
+                l = (%Origin.Width - logoW) / 2
+                break
+            }
+            case "UR": {
+                l = %Origin.Width - logoW
+                break
+            }
+            case "LL": {
+                t = %Origin.Height - logoH
+                break
+            }
+            case "LC": {
+                t = %Origin.Height - logoH
+                l = (%Origin.Width - logoW) / 2
+                break
+            }
+            case "LR": {
+                t = %Origin.Height - logoH
+                l = %Origin.Width - logoW
+                break
+            }
+        }
+        SetOrigin( l, t, l + logoW, t + logoH )
+        LoadMaskImage( logo, 1, 255 )
+    }
+}
+
+End_Procedure
+Begin_Procedure = _Setup()
+dlg = Dialog( "Frontier Printer Setup" )
+p = %LocalMachine\Software\agt\FrontierDB\Paper
+p3 = p & 0x8
+p4 = p & 0x10
+p5 = p & 0x20
+p6 = p & 0x40
+p8 = p & 0x100
+p10 = p & 0x400
+pUseLarger = %LocalMachine\Software\agt\FrontierDB\UseLarger
+pCenter = %LocalMachine\Software\agt\FrontierDB\Center
+
+DialogInputCheck( dlg, "Available Paper Sizes:", p3, "3 1/2" )
+DialogInputCheck( dlg, "", p4, "4" )
+DialogInputCheck( dlg, "", p5, "5" )
+DialogInputCheck( dlg, "", p6, "6" )
+DialogInputCheck( dlg, "", p8, "8" )
+DialogInputCheck( dlg, "", p10, "10" )
+DialogText( dlg, "" )
+DialogInputCheck( dlg, "", pUseLarger, "Print on larger paper if available." )
+DialogInputCheck( dlg, "", pCenter, "Print on center of paper." )
+
+if ( DoModal( dlg ) ) {
+    p = (pRelease ? 1 : 0) | (p3 ? 0x8 : 0) | (p4 ? 0x10 : 0) | (p5 ? 0x20 : 0) | (p6 ? 0x40 : 0) | (p8 ? 0x100 : 0) | (p10 ? 0x400 : 0);
+    %LocalMachine\Software\agt\FrontierDB\Paper = p
+    %LocalMachine\Software\agt\FrontierDB\UseLarger = pUseLarger
+    %LocalMachine\Software\agt\FrontierDB\Center = pCenter
+}
+
+End_Procedure
+Begin_Procedure = BagLabel(products, name, orderID, Folio, GuestID, Room, Total)
+//*@-90,-110,250,-20
+
+SetTempTile( 340, 208 )
+SetColor( 255, 255, 255 )
+FillBox()
+SetColor( 0,0,0 )
+p = new print( %LocalMachine\Software\Agt\DIM\labelPrinter, 203, 1 )
+p.Open()
+Date = DateFormat("M/d/yyyy")
+
+
+//{{ GRAPHIC_OBJECT
+Text2 = new Text
+Text2.left = 10
+Text2.top = 10
+Text2.right = 220
+Text2.bottom = 50
+Text2.text = "OrderID:"
+Text2.size = "20,40"
+Text2.weight = 800
+Text2.Draw()
+//}} GRAPHIC_OBJECT
+
+//{{ GRAPHIC_OBJECT
+Text3 = new Text
+Text3.left = 20
+Text3.top = 60
+Text3.right = 280
+Text3.bottom = 90
+Text3.text = OrderID
+Text3.size = "20, 40"
+Text3.Draw()
+//}} GRAPHIC_OBJECT
+
+//{{ GRAPHIC_OBJECT
+Text8 = new Text
+Text8.left = 10
+Text8.top = 110
+Text8.right = 210
+Text8.bottom = 140
+Text8.text = "Order Date:"
+Text8.size = "20,40"
+Text8.weight = 800
+Text8.Draw()
+//}} GRAPHIC_OBJECT
+
+//{{ GRAPHIC_OBJECT
+Text9 = new Text
+Text9.left = 20
+Text9.top = 150
+Text9.right = 320
+Text9.bottom = 190
+Text9.text = Date
+Text9.size = "20,40"
+Text9.Draw()
+//}} GRAPHIC_OBJECT
+
+//*@0,425,200,445
+
+//*@70,460,270,480
+p.Close()
+
+return "cancel"
+
+End_Procedure

@@ -1,0 +1,101 @@
+<html>
+<body>
+
+I keep having to re-analyze the transaction classes,
+so here's a tree.<p>
+
+<pre>
+Transaction
+
+   TransactionGroup
+   RegulatedTransaction
+
+   HTTPTransaction
+
+      GetTransaction
+         DownloadTransaction
+
+      various post transactions
+      RawUploadTransaction
+         CompressUploadTransaction
+</pre>
+
+Here's a handy summary of the differences between post transactions.<p>
+
+<table>
+
+<tr>
+<td></td>
+<td><b>Data Hook</b></td>
+<td><b>Data To HTTPClient</b></td>
+<td><b>Headers</b></td>
+</tr>
+
+<tr>
+<td><b>PostTransaction</b></td>
+<td>none</td>
+<td>none</td>
+<td>none</td>
+</tr>
+
+<tr>
+<td><b>PostDataTransaction</b></td>
+<td>getByteData / getXMLData</td>
+<td>byte[]</td>
+<td>none</td>
+</tr>
+
+<tr>
+<td><b>RawUploadTransaction</b></td>
+<td>getFile</td>
+<td>stream</td>
+<td>none</td>
+</tr>
+
+<tr>
+<td><b>CompressUploadTransaction</b></td>
+<td>getFile</td>
+<td>stream (compressed Base64)</td>
+<td>none</td>
+</tr>
+
+<tr>
+<td><b>UploadTransaction</b></td>
+<td>getFile plus two more</td>
+<td>stream (with prefix and suffix)</td>
+<td>multipart/form-data; boundary=?????</td>
+</tr>
+
+<tr>
+<td><b>FormDataTransaction</b></td>
+<td>getFormData</td>
+<td>string (from Query)</td>
+<td>application/x-www-form-urlencoded</td>
+</tr>
+
+<tr>
+<td><b>FormDataUploadTransaction</b></td>
+<td>getFormData</td>
+<td>stream (with prefix)</td>
+<td>application/x-www-form-urlencoded</td>
+</tr>
+
+<tr>
+<td></td>
+<td>getFile plus one more</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td><b>SOAPUploadTransaction</b></td>
+<td>lots</td>
+<td>stream (with prefix and suffix)</td>
+<td>Content-Type, SOAPAction</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+

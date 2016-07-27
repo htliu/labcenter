@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Order>
+   <Version>3</Version>
+   <OrderID>3734042</OrderID>
+   <OrderDir>C:\LifePics\LabCenter\run\storage2\3734042</OrderDir>
+   <Status>IN PROGRESS</Status>
+   <Hold>NONE</Hold>
+   <RecmodDate>2016-05-31 15:05:28</RecmodDate>
+   <FirstName>Lora</FirstName>
+   <LastName>Test</LastName>
+   <Email/>
+   <LPCustomerID>10958144</LPCustomerID>
+   <Phone>(555) 555-5555</Phone>
+   <DealerName>Meijer #19</DealerName>
+   <Subtotal>0.30</Subtotal>
+   <DiscountFreePrints>0.00</DiscountFreePrints>
+   <DiscountCredit>0.00</DiscountCredit>
+   <DiscountPercent>0.00</DiscountPercent>
+   <DiscountPermanent>0.00</DiscountPermanent>
+   <ShippingAmount>0.00</ShippingAmount>
+   <TaxAmount>0.02</TaxAmount>
+   <GrandTotal>0.32</GrandTotal>
+   <Company/>
+   <Street1/>
+   <Street2/>
+   <City/>
+   <State/>
+   <ZipCode/>
+   <Country/>
+   <ShipCompany/>
+   <ShipStreet1/>
+   <ShipStreet2/>
+   <ShipCity/>
+   <ShipState/>
+   <ShipZipCode/>
+   <ShipCountry/>
+   <ShipMethod>
+      <Name>PICKUP at Meijer #19</Name>
+      <Product>4x6 Print (Print to Store) Glossy</Product>
+   </ShipMethod>
+   <InvoiceDate>2016-05-31 16:04:51 -0600</InvoiceDate>
+   <DueStatus>NONE</DueStatus>
+   <Format>FLAT</Format>
+   <Item>
+      <Filename>image.jpg</Filename>
+      <Status>IN PROGRESS</Status>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <File>
+      <Filename>image.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <DownloadURL>local:j=867278545&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c0%2c300%2c200&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+</Order>

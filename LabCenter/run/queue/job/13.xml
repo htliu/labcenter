@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Job>
+   <Version>0</Version>
+   <JobID>13</JobID>
+   <QueueID>15</QueueID>
+   <OrderID>3734077</OrderID>
+   <Status>SENT</Status>
+   <Hold>NONE</Hold>
+   <RecmodDate>2016-07-11 23:21:23</RecmodDate>
+   <Ref>
+      <Filename>image_2.jpg</Filename>
+      <Sku>60101-79 Finish Glossy</Sku>
+      <DoneQuantity>1</DoneQuantity>
+   </Ref>
+   <Format>DNP DIRECT</Format>
+</Job>

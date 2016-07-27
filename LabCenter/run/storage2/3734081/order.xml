@@ -1,0 +1,126 @@
+<?xml-stylesheet type="text/xsl" href="C:\LifePics\LabCenter\run\invoice.xsl"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Order AppVersion="176" ID="3734081" PartnerOrderID="" Version="2">
+  <OrderTime>2016-07-13 12:22:54</OrderTime>
+  <OrderSource>Web</OrderSource>
+  <Dealer Name="Meijer #19">
+    <Street1>700 W Norton Ave</Street1>
+    <Street2/>
+    <City>Muskegon</City>
+    <State>MI</State>
+    <ZIP>49441</ZIP>
+    <Country>USA</Country>
+    <MerchantID>5724</MerchantID>
+    <LocationNote/>
+    <StoreNumber>19</StoreNumber>
+    <WholesaleFulfillmentID>19</WholesaleFulfillmentID>
+    <Header1/>
+    <Header2/>
+  </Dealer>
+  <Portal Name=""/>
+  <Customer ID="tomrau2@gmail.com" Number="10955545">
+    <First>tom</First>
+    <Last>rau</Last>
+    <PreferredCustomerNumber/>
+    <BillTo>
+      <First>tom</First>
+      <Last>rau</Last>
+      <Company/>
+      <Street1/>
+      <Street2/>
+      <AltCSZ/>
+      <City/>
+      <State/>
+      <ZIP/>
+      <Phone>(630) 608-8282</Phone>
+      <Country/>
+    </BillTo>
+    <ShipTo>
+      <First/>
+      <Last/>
+      <Company/>
+      <Street1/>
+      <Street2/>
+      <AltCSZ/>
+      <City/>
+      <State/>
+      <ZIP/>
+      <Phone/>
+      <Country/>
+      <Comment>Pickup at Meijer #19</Comment>
+      <ShippingDescription/>
+    </ShipTo>
+  </Customer>
+  <SpecialInstructions>
+    <Message/>
+  </SpecialInstructions>
+  <Payment>
+    <Type>Pay In Store</Type>
+    <CardType/>
+    <Account/>
+    <Expiration/>
+    <Authorization/>
+    <Amount>0.64</Amount>
+  </Payment>
+  <OrderSummary>
+    <ShipMethod>PICKUP at Meijer #19</ShipMethod>
+    <OriginalShipMethod>PICKUP</OriginalShipMethod>
+    <Product>
+      <Description>4x6 Print (Print to Store) Glossy</Description>
+      <BaseSku>60101-11</BaseSku><SKU>60101-11</SKU>
+      <Attributes/>
+      <QTY>2</QTY>
+      <Price>0.30</Price>
+      <Subtotal>0.60</Subtotal>
+      <Note/>
+    </Product>
+    <ProducedHere>true</ProducedHere>
+  </OrderSummary>
+  <Items>
+    <Item ID="1">
+      <BaseSku>60101-11</BaseSku><ProductSku>60101-11 Glossy</ProductSku>
+      <Attributes>
+        <Attribute>
+          <GroupName>Finish</GroupName>
+          <Value>Glossy</Value>
+          <PriceOffset>0.00</PriceOffset>
+        </Attribute>
+      </Attributes>
+      <GiftText/>
+      <AffiliateSku>60101</AffiliateSku>
+      <ProductType>Standard</ProductType>
+      <ProductDescription>4x6 Print (Print to Store)</ProductDescription>
+      <PrintShortDimension>4</PrintShortDimension>
+      <PrintLongDimension>6</PrintLongDimension>
+      <PrintSizeUnit>Inch</PrintSizeUnit>
+      <ResolutionWarning/>
+      <DisplayQty>2</DisplayQty>
+      <Qty>2</Qty>
+      <Price>0.30</Price>
+      <Total>0.60</Total>
+      <Images>
+        <Image ID="1">
+          <ImageURL>http://staging.opie.lifepics.com/OPDisplay.aspx?i=F1B3DC1F6A3895A3CA1FC13A7614FA36356888D2D60B50481989D31001D9F77F&amp;q=80&amp;dpi=300</ImageURL>
+          <ImageName>867250678_154312356.jpg</ImageName>
+          <OrigImageName>2013-01-27.jpg.jpg</OrigImageName>
+          <ImageDescription>2013-01-27.jpg</ImageDescription>
+        </Image>
+      </Images>
+    </Item>
+  </Items>
+  <Addons/>
+  <Currency>$</Currency>
+  <SubTotal>0.60</SubTotal>
+  <TaxIsGST>false</TaxIsGST>
+  <TaxRate>6.00</TaxRate>
+  <Tax>0.04</Tax>
+  <Shipping>0.00</Shipping>
+  <ShippingCost>0.00</ShippingCost>
+  <Discount>
+    <FreePrints>0.00</FreePrints>
+    <FreeShipping>0.00</FreeShipping>
+    <Credit>0.00</Credit>
+    <PercentDiscount>0.00</PercentDiscount>
+    <PermanentDiscount>0.00</PermanentDiscount>
+  </Discount>
+  <GrandTotal>0.64</GrandTotal>
+</Order>

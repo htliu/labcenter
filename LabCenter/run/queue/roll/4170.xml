@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Roll>
+   <Version>2</Version>
+   <RollID>4170</RollID>
+   <Source>KIOSK</Source>
+   <Email/>
+   <RollDir>C:\LifePics\KioskShare\Upload</RollDir>
+   <Status>PENDING</Status>
+   <Hold>NONE</Hold>
+   <ReceivedDate>2016-07-15 07:11:07</ReceivedDate>
+   <RecmodDate>2016-07-15 07:11:07</RecmodDate>
+   <Item>
+      <Filename>867308038.JPG</Filename>
+      <Status>PENDING</Status>
+      <ImageID>867308038</ImageID>
+   </Item>
+   <ExtraFile>thumbnail\867308038.JPG</ExtraFile>
+   <ExtraFile>MedHigh\867308038.JPG</ExtraFile>
+</Roll>

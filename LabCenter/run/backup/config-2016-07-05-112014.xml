@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Config>
+   <Version>54</Version>
+   <InstallDir>storage2</InstallDir>
+   <InstallDir>rolls</InstallDir>
+   <ProMode>NORMAL</ProMode>
+   <ProEmail/>
+   <Style>MODERN</Style>
+   <LockPort>27986</LockPort>
+   <ShowQueueTab>true</ShowQueueTab>
+   <ShowGrandTotal>false</ShowGrandTotal>
+   <HoldInvoice>false</HoldInvoice>
+   <EnableItemPrice>false</EnableItemPrice>
+   <AutoComplete>false</AutoComplete>
+   <AutoCompleteConfig>
+      <Version>0</Version>
+      <AutoCompleteDelay-Millis>600000</AutoCompleteDelay-Millis>
+      <RestrictToStoreHours>false</RestrictToStoreHours>
+      <DeltaOpen-Millis>0</DeltaOpen-Millis>
+      <DeltaClose-Millis>0</DeltaClose-Millis>
+   </AutoCompleteConfig>
+   <StoreHoursURL>http://staging.api.lifepics.com/closed/LCService.asmx/GetHoursInfo</StoreHoursURL>
+   <StoreHours/>
+   <WarnNotPrinted>false</WarnNotPrinted>
+   <UserConfig>
+      <Version>7</Version>
+      <OrderArrived>
+         <UseMessage>false</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>false</UseStatusScreen>
+         <UseSound>true</UseSound>
+         <SoundType>VOICE</SoundType>
+      </OrderArrived>
+      <SpecialInstructions>
+         <UseMessage>true</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>false</UseStatusScreen>
+         <UseSound>true</UseSound>
+         <SoundType>CHIME</SoundType>
+      </SpecialInstructions>
+      <OrdersReady>
+         <UseMessage>false</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>false</UseStatusScreen>
+         <UseSound>false</UseSound>
+         <SoundType>CHIME</SoundType>
+      </OrdersReady>
+      <OrderDueSoon>
+         <UseMessage>false</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>false</UseStatusScreen>
+         <UseSound>false</UseSound>
+         <SoundType>VOICE</SoundType>
+      </OrderDueSoon>
+      <OrderOverdue>
+         <UseMessage>false</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>false</UseStatusScreen>
+         <UseSound>false</UseSound>
+         <SoundType>VOICE</SoundType>
+      </OrderOverdue>
+      <OrderError>
+         <UseMessage>true</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>true</UseStatusScreen>
+         <UseSound>true</UseSound>
+         <SoundType>VOICE</SoundType>
+      </OrderError>
+      <InvalidPassword>
+         <UseMessage>true</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>true</UseStatusScreen>
+         <UseSound>true</UseSound>
+         <SoundType>VOICE</SoundType>
+      </InvalidPassword>
+      <MissingChannel>
+         <UseMessage>true</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>true</UseStatusScreen>
+         <UseSound>true</UseSound>
+         <SoundType>VOICE</SoundType>
+      </MissingChannel>
+      <JobError>
+         <UseMessage>true</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>true</UseStatusScreen>
+         <UseSound>true</UseSound>
+         <SoundType>CHIME</SoundType>
+      </JobError>
+      <OtherProcess>
+         <UseMessage>true</UseMessage>
+         <UseTaskBarFlash>false</UseTaskBarFlash>
+         <UseStatusScreen>true</UseStatusScreen>
+         <UseSound>true</UseSound>
+         <SoundType>CHIME</SoundType>
+      </OtherProcess>
+      <SoonInterval-Millis>600000</SoonInterval-Millis>
+      <SkuDueType>ALL</SkuDueType>
+      <RenotifyInterval-Millis>1800000</RenotifyInterval-Millis>
+   </UserConfig>
+   <HelpURL>http://www.velocity.org/meijersupport</HelpURL>
+   <ManualURL>http://help.lifepics.com/LabCenter_TOC.htm</ManualURL>
+   <HelpItem ItemText="Passport Photo" ItemURL="http://www.meijerphoto.com/buy/passport"/>
+   <AdminURL>http://staging.services.lifepics.com/LabCenter/GoToAdmin.asp</AdminURL>
+   <StatusURL>http://staging.services.lifepics.com/net/LabcenterStatus.aspx</StatusURL>
+   <NewsURL>http://www.lifepics.com/marketing/LabCenter/news.htm</NewsURL>
+   <RestoreURL>http://staging.services.lifepics.com/net/LabCenter/Service.asmx/GetBackupInstances</RestoreURL>
+   <StatusNewsInterval-Millis>3600000</StatusNewsInterval-Millis>
+   <BackupCount>10</BackupCount>
+   <MinimizeAtStart>false</MinimizeAtStart>
+   <MinimizeAtClose>true</MinimizeAtClose>
+   <PasswordForExit>false</PasswordForExit>
+   <PasswordForSetup>false</PasswordForSetup>
+   <PasswordForUnminimize>false</PasswordForUnminimize>
+   <PreventStopStart>true</PreventStopStart>
+   <LogCount>3</LogCount>
+   <LogSize-Bytes>100000</LogSize-Bytes>
+   <LogLevel>INFO</LogLevel>
+   <ReportLevel>SEVERE</ReportLevel>
+   <ReportQueueSize>100</ReportQueueSize>
+   <ReportURL>http://staging.services.lifepics.com/LabCenter/Report.asp</ReportURL>
+   <KioskLogCount>10</KioskLogCount>
+   <KioskLogSize>100000</KioskLogSize>
+   <OrderDataDir>C:\LifePics\LabCenter\run\storage2</OrderDataDir>
+   <RollDataDir>C:\LifePics\LabCenter\run\rolls</RollDataDir>
+   <QueueList>
+      <Version>4</Version>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>14</QueueID>
+         <Name>DNP DS40</Name>
+         <Format>DNP DIRECT</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>2</Version>
+            <PrinterType>3</PrinterType>
+            <PrinterIDType>SINGLE</PrinterIDType>
+            <PrinterID/>
+            <MaxWaitInterval-Millis>60000</MaxWaitInterval-Millis>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <Mapping A="4x4Print Finish Glossy" Finish="0" Margin="622,0,0,0" Media="3"/>
+            <Mapping A="4x4Print Finish Matte" Finish="1" Margin="622,0,0,0" Media="3"/>
+            <Mapping A="4x5.3-G Finish Glossy" Finish="0" Margin="232,0,0,0" Media="3"/>
+            <Mapping A="4x5.3-M Finish Matte" Finish="1" Margin="232,0,0,0" Media="3"/>
+            <Mapping A="60101-11 Finish Glossy" Finish="0" Media="3"/>
+            <Mapping A="60101-12 Finish Matte" Finish="1" Media="3"/>
+            <Mapping A="60101-13 Finish Glossy" Finish="0" Media="3"/>
+            <Mapping A="60101-14 Finish Matte" Finish="1" Media="3"/>
+            <Mapping A="65001-11 Finish Glossy" Finish="0" Media="3"/>
+            <Mapping A="65001-12 Finish Matte" Finish="1" Media="3"/>
+            <Mapping A="65001-13 Finish Glossy" Finish="0" Media="3"/>
+            <Mapping A="65001-14 Finish Matte" Finish="1" Media="3"/>
+            <Mapping A="Passport\_Photo" Finish="0" Media="3"/>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>15</QueueID>
+         <Name>DNP DS80</Name>
+         <Format>DNP DIRECT</Format>
+         <FormatConfig>
+            <Version>2</Version>
+            <PrinterType>4</PrinterType>
+            <PrinterIDType>SINGLE</PrinterIDType>
+            <PrinterID/>
+            <MaxWaitInterval-Millis>60000</MaxWaitInterval-Millis>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <Mapping Finish="0" Media="2" Rule="5x7VisionBlock"/>
+            <Mapping A="8x8Print Finish Glossy" Finish="0" Media="36"/>
+            <Mapping A="8x8Print Finish Matte" Finish="1" Media="36"/>
+            <Mapping A="8x10BambooPrint" Finish="1" Media="31"/>
+            <Mapping A="60101-15 Finish Glossy" Finish="0" Media="2"/>
+            <Mapping A="60101-16 Finish Matte" Finish="1" Media="2"/>
+            <Mapping A="60101-17 Finish Glossy" Finish="0" Media="2"/>
+            <Mapping A="60101-18 Finish Matte" Finish="1" Media="2"/>
+            <Mapping A="60101-19 Finish Glossy" Finish="0" Media="31"/>
+            <Mapping A="60101-20 Finish Matte" Finish="1" Media="31"/>
+            <Mapping A="60101-21 Finish Glossy" Finish="0" Media="31"/>
+            <Mapping A="60101-22 Finish Matte" Finish="1" Media="31"/>
+            <Mapping A="60101-79 Finish Glossy" Finish="0" Media="35"/>
+            <Mapping A="60101-79 Finish Matte" Finish="1" Media="35"/>
+            <Mapping A="60101-81 Finish Glossy" Finish="0" Media="32"/>
+            <Mapping A="60101-81 Finish Matte" Finish="1" Media="32"/>
+            <Mapping A="60201-7302" Finish="0" Media="2"/>
+            <Mapping A="60201-7302 Finish Matte" Finish="1" Media="2"/>
+            <Mapping A="60201-7310 Finish Glossy" Finish="0" Media="31"/>
+            <Mapping A="60201-7310 Finish Matte" Finish="1" Media="31"/>
+            <Mapping Finish="1" Media="31" Rule="60201-8009"/>
+            <Mapping Finish="0" Media="31" Rule="60201-8010"/>
+            <Mapping A="62001-64 Finish Glossy" Finish="1" Media="31"/>
+            <Mapping A="65001-15 Finish Glossy" Finish="0" Media="2"/>
+            <Mapping A="65001-16 Finish Matte" Finish="1" Media="2"/>
+            <Mapping A="65001-17 Finish Glossy" Finish="0" Media="2"/>
+            <Mapping A="65001-18 Finish Matte" Finish="1" Media="2"/>
+            <Mapping A="65001-96 Finish Glossy" Finish="0" Media="33"/>
+            <Mapping A="65001-5765 Finish Matte" Finish="1" Media="33"/>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>17</QueueID>
+         <Name>DVD</Name>
+         <Format>CD</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>0</Version>
+            <DataDir>C:\LifePics\CDData</DataDir>
+            <Command>C:\LifePics\CDBurner\ArchiveTool.exe C:\LifePics\CDData\</Command>
+            <WorkingDir>C:\LifePics\CDBurner</WorkingDir>
+            <Mapping A="DVD" ProductType="dvd"/>
+            <Mapping A="USB" ProductType="usb"/>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>8</QueueID>
+         <Name>HP 8x20</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>8</Width>
+               <Height>20</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>2</QueueID>
+         <Name>HP 11x14</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>11</Width>
+               <Height>14</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>9</QueueID>
+         <Name>HP 11x14 Canvas</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Canvas</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>17</Width>
+               <Height>20</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>3</QueueID>
+         <Name>HP 12x18</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>12</Width>
+               <Height>18</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>10</QueueID>
+         <Name>HP 12x18 Canvas</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Canvas</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>18</Width>
+               <Height>24</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>4</QueueID>
+         <Name>HP 16x20</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>16</Width>
+               <Height>20</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>11</QueueID>
+         <Name>HP 16x20 Canvas</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Canvas</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>22</Width>
+               <Height>26</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>5</QueueID>
+         <Name>HP 18x24</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>18</Width>
+               <Height>24</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>12</QueueID>
+         <Name>HP 18x24 Canvas</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Canvas</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>24</Width>
+               <Height>30</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>6</QueueID>
+         <Name>HP 20x30</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>20</Width>
+               <Height>30</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>13</QueueID>
+         <Name>HP 20x30 Canvas</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Canvas</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>26</Width>
+               <Height>36</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>7</QueueID>
+         <Name>HP 24x36</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>24</Width>
+               <Height>36</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>18</QueueID>
+         <Name>HP 24x72</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Poster</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>24</Width>
+               <Height>72</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>19</QueueID>
+         <Name>HP Custom Cover</Name>
+         <Format>RENDER JPEG</Format>
+         <NoAutoPrint>true</NoAutoPrint>
+         <FormatConfig>
+            <Version>1</Version>
+            <PageSetup>
+               <Printer>todo:HP Cover</Printer>
+               <DefaultSize>false</DefaultSize>
+               <Width>23.389</Width>
+               <Height>8.818</Height>
+               <MarginTop>0</MarginTop>
+               <MarginBottom>0</MarginBottom>
+               <MarginLeft>0</MarginLeft>
+               <MarginRight>0</MarginRight>
+               <Orientation>PORTRAIT</Orientation>
+            </PageSetup>
+            <RotateCW>false</RotateCW>
+            <CompleteImmediately>false</CompleteImmediately>
+            <TileEnable>true</TileEnable>
+            <TilePixels>2000</TilePixels>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>1</QueueID>
+         <Name>Noritsu</Name>
+         <Format>NORITSU</Format>
+         <SwitchToBackup>true</SwitchToBackup>
+         <FormatConfig>
+            <Version>4</Version>
+            <DataDir>C:\Users\LabCenter\NoritsuOrders</DataDir>
+            <Strict>true</Strict>
+            <LimitEnable>true</LimitEnable>
+            <LimitLength>35</LimitLength>
+            <PrintSingleSided>false</PrintSingleSided>
+            <CollateInReverse>false</CollateInReverse>
+            <Backprint>
+               <Type>ORDER_ID</Type>
+               <Message/>
+            </Backprint>
+            <Backprint>
+               <Type>NAME_LAST</Type>
+               <Message/>
+            </Backprint>
+            <Mapping A="4x4Print Finish Glossy" Channel="005"/>
+            <Mapping A="4x4Print Finish Matte" Channel="006"/>
+            <Mapping A="4x5.3-G Finish Glossy" Channel="042"/>
+            <Mapping A="4x5.3-M Finish Matte" Channel="043"/>
+            <Mapping Channel="023" Rule="5x7FoldedDNP"/>
+            <Mapping Channel="018" Rule="5x7VisionBlock"/>
+            <Mapping Channel="036" Rule="8.5x11Calendar12mMC"/>
+            <Mapping Channel="036" Rule="8.5x11Calendar18months"/>
+            <Mapping Channel="035" Rule="8_5x11_Custom_Cover"/>
+            <Mapping A="8x8Print Finish Glossy" Channel="040"/>
+            <Mapping A="8x8Print Finish Matte" Channel="041"/>
+            <Mapping A="8x10BambooPrint" Channel="027"/>
+            <Mapping Channel="045" Rule="10x8MCOLLAGE"/>
+            <Mapping Channel="045" Rule="10x8MPRNT"/>
+            <Mapping Channel="046" Rule="10x13MCOLLAGE"/>
+            <Mapping Channel="046" Rule="10x13MPRNT"/>
+            <Mapping A="60101-11 Finish Glossy" Channel="007"/>
+            <Mapping A="60101-12 Finish Matte" Channel="008"/>
+            <Mapping A="60101-13 Finish Glossy" Channel="007"/>
+            <Mapping A="60101-14 Finish Matte" Channel="008"/>
+            <Mapping A="60101-15 Finish Glossy" Channel="018"/>
+            <Mapping A="60101-16 Finish Matte" Channel="019"/>
+            <Mapping A="60101-17 Finish Glossy" Channel="018"/>
+            <Mapping A="60101-18 Finish Matte" Channel="019"/>
+            <Mapping A="60101-19 Finish Glossy" Channel="026"/>
+            <Mapping A="60101-20 Finish Matte" Channel="027"/>
+            <Mapping A="60101-21 Finish Glossy" Channel="026"/>
+            <Mapping A="60101-22 Finish Matte" Channel="027"/>
+            <Mapping A="60201-7302" Channel="019"/>
+            <Mapping A="60201-7302 Finish Matte" Channel="019"/>
+            <Mapping A="60201-7310 Finish Glossy" Channel="027"/>
+            <Mapping A="60201-7310 Finish Matte" Channel="027"/>
+            <Mapping Channel="035" Rule="61001-34"/>
+            <Mapping Channel="035" Rule="61001-35"/>
+            <Mapping Channel="039" Rule="61001-36"/>
+            <Mapping Channel="039" Rule="61001-37"/>
+            <Mapping Channel="035" Rule="61001_8_pages"/>
+            <Mapping Channel="039" Rule="61001_12_pages"/>
+            <Mapping Channel="039" Rule="62001-18months"/>
+            <Mapping A="62001-59 Finish Glossy" Channel="039"/>
+            <Mapping A="62001-64 Finish Glossy" Channel="029"/>
+            <Mapping A="62001-64 Finish Matte" Channel="029"/>
+            <Mapping A="65001-11 Finish Glossy" Channel="007"/>
+            <Mapping A="65001-12 Finish Matte" Channel="008"/>
+            <Mapping A="65001-13 Finish Glossy" Channel="007"/>
+            <Mapping A="65001-14 Finish Matte" Channel="008"/>
+            <Mapping A="65001-15 Finish Glossy" Channel="018"/>
+            <Mapping A="65001-16 Finish Matte" Channel="019"/>
+            <Mapping A="65001-17 Finish Glossy" Channel="018"/>
+            <Mapping A="65001-18 Finish Matte" Channel="019"/>
+            <Mapping A="65001-96 Finish Glossy" Channel="011"/>
+            <Mapping A="65001-5765 Finish Matte" Channel="012"/>
+            <Mapping Channel="023" Rule="65501-29 Orientation Portrait"/>
+            <Mapping A="65501-29 Finish Matte" Channel="023"/>
+            <Mapping Channel="023" Rule="65501-30 Orientation Landscape"/>
+            <Mapping A="65501-30 Finish Matte" Channel="023"/>
+            <Mapping Channel="036" Rule="LPICCAL01"/>
+         </FormatConfig>
+      </Queue>
+      <Queue>
+         <Version>3</Version>
+         <QueueID>20</QueueID>
+         <Name>Noritsu No Duplex</Name>
+         <Format>NORITSU</Format>
+         <SwitchToBackup>true</SwitchToBackup>
+         <FormatConfig>
+            <Version>4</Version>
+            <DataDir>C:\Users\LabCenter\NoritsuOrders</DataDir>
+            <Strict>true</Strict>
+            <LimitEnable>true</LimitEnable>
+            <LimitLength>35</LimitLength>
+            <PrintSingleSided>true</PrintSingleSided>
+            <CollateInReverse>false</CollateInReverse>
+            <Backprint>
+               <Type>ORDER_ID</Type>
+               <Message/>
+            </Backprint>
+            <Backprint>
+               <Type>NAME_LAST</Type>
+               <Message/>
+            </Backprint>
+            <Mapping Channel="027" Rule="60201-8009"/>
+            <Mapping Channel="026" Rule="60201-8010"/>
+         </FormatConfig>
+      </Queue>
+      <Mapping A="4x4Print Finish Glossy" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="4x4Print Finish Matte" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="4x5.3-G Finish Glossy" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="4x5.3-M Finish Matte" BackupQueueID="14" QueueID="1"/>
+      <Mapping QueueID="1" Rule="5x7FoldedDNP"/>
+      <Mapping BackupQueueID="15" QueueID="1" Rule="5x7VisionBlock"/>
+      <Mapping QueueID="1" Rule="8.5x11Calendar12mMC"/>
+      <Mapping QueueID="1" Rule="8.5x11Calendar18months"/>
+      <Mapping QueueID="1" Rule="8_5x11_Custom_Cover"/>
+      <Mapping A="8_5x11_Custom_Cover_Front" QueueID="19"/>
+      <Mapping A="8x8Print Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="8x8Print Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="8x10BambooPrint" BackupQueueID="15" QueueID="1"/>
+      <Mapping QueueID="1" Rule="10x8MCOLLAGE"/>
+      <Mapping QueueID="1" Rule="10x8MPRNT"/>
+      <Mapping QueueID="1" Rule="10x13MCOLLAGE"/>
+      <Mapping QueueID="1" Rule="10x13MPRNT"/>
+      <Mapping QueueID="2" Rule="11x14VisionWall"/>
+      <Mapping QueueID="4" Rule="16x20VisionWall"/>
+      <Mapping A="60101-11 Finish Glossy" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="60101-12 Finish Matte" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="60101-13 Finish Glossy" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="60101-14 Finish Matte" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="60101-15 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-16 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-17 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-18 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-19 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-20 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-21 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-22 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60101-79 Finish Glossy" QueueID="15"/>
+      <Mapping A="60101-79 Finish Matte" QueueID="15"/>
+      <Mapping A="60101-81 Finish Glossy" QueueID="15"/>
+      <Mapping A="60101-81 Finish Matte" QueueID="15"/>
+      <Mapping A="60201-7290" QueueID="2"/>
+      <Mapping A="60201-7302" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60201-7302 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60201-7310 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60201-7310 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="60201-7322" QueueID="8"/>
+      <Mapping QueueID="8" Rule="60201-8008"/>
+      <Mapping BackupQueueID="15" QueueID="20" Rule="60201-8009"/>
+      <Mapping BackupQueueID="15" QueueID="20" Rule="60201-8010"/>
+      <Mapping QueueID="2" Rule="60201-8012"/>
+      <Mapping QueueID="2" Rule="60201-8014"/>
+      <Mapping A="60501-24 Finish Matte" QueueID="8"/>
+      <Mapping A="60501-40 Finish Matte" QueueID="4"/>
+      <Mapping A="60501-41 Finish Matte" QueueID="4"/>
+      <Mapping A="60501-43 Finish Matte" QueueID="5"/>
+      <Mapping A="60501-44 Finish Matte" QueueID="5"/>
+      <Mapping A="60501-45 Finish Matte" QueueID="6"/>
+      <Mapping A="60501-47 Finish Matte" QueueID="6"/>
+      <Mapping A="60501-49 Finish Matte" QueueID="7"/>
+      <Mapping A="60501-50 Finish Matte" QueueID="2"/>
+      <Mapping A="60501-52 Finish Matte" QueueID="2"/>
+      <Mapping A="60501-55 Finish Matte" QueueID="3"/>
+      <Mapping A="60501-58 Finish Matte" QueueID="3"/>
+      <Mapping A="60501-134 Finish Matte" QueueID="7"/>
+      <Mapping QueueID="18" Rule="60501-5783"/>
+      <Mapping QueueID="1" Rule="61001-34"/>
+      <Mapping QueueID="1" Rule="61001-35"/>
+      <Mapping QueueID="1" Rule="61001-36"/>
+      <Mapping QueueID="1" Rule="61001-37"/>
+      <Mapping QueueID="1" Rule="61001_8_pages"/>
+      <Mapping QueueID="1" Rule="61001_12_pages"/>
+      <Mapping QueueID="1" Rule="62001-18months"/>
+      <Mapping A="62001-59 Finish Glossy" QueueID="1"/>
+      <Mapping A="62001-64 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="62001-64 Finish Matte" QueueID="1"/>
+      <Mapping A="62001-66 Finish Matte" QueueID="3"/>
+      <Mapping A="65001-11 Finish Glossy" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="65001-12 Finish Matte" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="65001-13 Finish Glossy" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="65001-14 Finish Matte" BackupQueueID="14" QueueID="1"/>
+      <Mapping A="65001-15 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="65001-16 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="65001-17 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="65001-18 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="65001-96 Finish Glossy" BackupQueueID="15" QueueID="1"/>
+      <Mapping A="65001-5765 Finish Matte" BackupQueueID="15" QueueID="1"/>
+      <Mapping QueueID="1" Rule="65501-29 Orientation Portrait"/>
+      <Mapping A="65501-29 Finish Matte" QueueID="1"/>
+      <Mapping QueueID="1" Rule="65501-30 Orientation Landscape"/>
+      <Mapping A="65501-30 Finish Matte" QueueID="1"/>
+      <Mapping A="66050-6773" QueueID="9"/>
+      <Mapping A="66050-6775" QueueID="11"/>
+      <Mapping A="66050-6777" QueueID="10"/>
+      <Mapping A="66050-6779" QueueID="12"/>
+      <Mapping A="66050-6781" QueueID="13"/>
+      <Mapping QueueID="9" Rule="66050-8003"/>
+      <Mapping QueueID="9" Rule="66050-8004"/>
+      <Mapping QueueID="11" Rule="66050-8005"/>
+      <Mapping QueueID="11" Rule="66050-8006"/>
+      <Mapping A="DVD" QueueID="17"/>
+      <Mapping QueueID="1" Rule="LPICCAL01"/>
+      <Mapping A="Passport\_Photo" QueueID="14"/>
+      <Mapping A="USB" QueueID="17"/>
+      <NextQueueID>21</NextQueueID>
+      <EnableBackup>true</EnableBackup>
+   </QueueList>
+   <ProductConfig>
+      <Version>0</Version>
+   </ProductConfig>
+   <CoverInfo BackSku="8_5x11_Custom_Cover_Front" BookSku="8_5x11_Custom_Cover Book\_Cover\_Color Glossy Book\_Cover\_Options PrintableCover Book\_Size 8-5x11 Book\_Type CustomCoverPhotoBook"/>
+   <CoverInfo BackSku="8_5x11_Custom_Cover_Front" BookSku="8_5x11_Custom_Cover Book\_Cover\_Color Glossy Book\_Cover\_Options PrintableCover Book\_Size 11x8-5 Book\_Type CustomCoverPhotoBook"/>
+   <AutoSpawn>true</AutoSpawn>
+   <AutoSpawnSpecial>false</AutoSpawnSpecial>
+   <AutoSpawnPrice>15.50</AutoSpawnPrice>
+   <ScanInterval-Millis>60000</ScanInterval-Millis>
+   <PurgeConfig>
+      <Version>9</Version>
+      <PurgeInterval-Millis>0</PurgeInterval-Millis>
+      <OrderPurgeInterval-Millis>604800000</OrderPurgeInterval-Millis>
+      <JobPurgeInterval-Millis>604800000</JobPurgeInterval-Millis>
+      <OrderStalePurgeInterval-Millis>2592000000</OrderStalePurgeInterval-Millis>
+      <JobStalePurgeInterval-Millis>2592000000</JobStalePurgeInterval-Millis>
+      <ReceivedPurgeInterval-Millis>10800000</ReceivedPurgeInterval-Millis>
+      <AutoPurgeManual>true</AutoPurgeManual>
+      <AutoPurgeScanner>false</AutoPurgeScanner>
+      <AutoPurgeHot>true</AutoPurgeHot>
+      <AutoPurgeDLS>false</AutoPurgeDLS>
+      <AutoPurgeOrders>true</AutoPurgeOrders>
+      <AutoPurgeJobs>true</AutoPurgeJobs>
+      <AutoPurgeStale>false</AutoPurgeStale>
+      <AutoPurgeStaleLocal>false</AutoPurgeStaleLocal>
+      <TryPurgeLocalImageURL>http://staging.api.lifepics.com/closed/LCService.asmx/TryPurgeLocalImage</TryPurgeLocalImageURL>
+   </PurgeConfig>
+   <DLSBusyPollInterval-Millis>60000</DLSBusyPollInterval-Millis>
+   <DLSBusyRetries>5</DLSBusyRetries>
+   <SKURefreshURL>http://staging.services.lifepics.com/LabCenter/GetSKUList.asp</SKURefreshURL>
+   <NewProductURL>http://staging.services.lifepics.com/net/GetSKUList.aspx</NewProductURL>
+   <ConversionURL>http://staging.services.lifepics.com/net/GetSkuMapping.aspx</ConversionURL>
+   <MerchantConfig>
+      <Version>1</Version>
+      <Merchant>60588</Merchant>
+      <Password>6799D5842C9D3979571209E8B30EF8C892AEC53A8B</Password>
+      <IsWholesale>false</IsWholesale>
+   </MerchantConfig>
+   <DiagnoseConfig>
+      <Version>2</Version>
+      <PauseRetry>true</PauseRetry>
+      <PauseRetryInterval-Millis>3600000</PauseRetryInterval-Millis>
+      <PauseRetryLimit-Millis>604800000</PauseRetryLimit-Millis>
+      <DownPollInterval-Millis>30000</DownPollInterval-Millis>
+      <DownRetriesBeforeNotification>5</DownRetriesBeforeNotification>
+      <DownRetriesEvenIfNotDown>3</DownRetriesEvenIfNotDown>
+      <SiteURLs>
+         <URL>http://staging.services.lifepics.com/imalive.html</URL>
+         <URL>http://mikescamera.lifepics.com</URL>
+      </SiteURLs>
+      <NetURLs>
+         <URL>http://www.yahoo.com</URL>
+         <URL>http://www.google.com</URL>
+      </NetURLs>
+      <NetFailLimit>3</NetFailLimit>
+      <TimeoutInterval-Millis>5000</TimeoutInterval-Millis>
+      <StartupRetryInterval-Millis>5000</StartupRetryInterval-Millis>
+      <StartupRetries>2</StartupRetries>
+   </DiagnoseConfig>
+   <DefaultTimeoutInterval-Millis>60000</DefaultTimeoutInterval-Millis>
+   <ErrorWindowEnabled>true</ErrorWindowEnabled>
+   <ErrorWindowInterval-Millis>3600000</ErrorWindowInterval-Millis>
+   <ErrorWindowPercent>90</ErrorWindowPercent>
+   <LocalShareEnabled>true</LocalShareEnabled>
+   <LocalShareDir>C:\LifePics\KioskShare\Upload</LocalShareDir>
+   <DownloadEnabled>true</DownloadEnabled>
+   <DownloadConfig>
+      <Version>7</Version>
+      <ListURL>http://staging.services.lifepics.com/LabCenter/GetOrderList.asp</ListURL>
+      <OrderURL>http://staging.services.lifepics.com/LabCenter/GetOrderXML.asp</OrderURL>
+      <OpieURL>http://staging.opie.lifepics.com/OPService.asmx/GetOrderLC</OpieURL>
+      <OpieFlag>true</OpieFlag>
+      <StatusURL>http://staging.services.lifepics.com/net/Orders/UpdateOrderStatus.aspx</StatusURL>
+      <IdlePollInterval-Millis>1000</IdlePollInterval-Millis>
+      <ListPollInterval-Millis>10000</ListPollInterval-Millis>
+      <StartOverEnabled>true</StartOverEnabled>
+      <StartOverInterval-Millis>10800000</StartOverInterval-Millis>
+      <PrioritizeEnabled>true</PrioritizeEnabled>
+      <ConversionEnabled>false</ConversionEnabled>
+      <BandwidthConfig>
+         <Version>0</Version>
+         <Schedule>
+            <EntryNumber>100</EntryNumber>
+            <EntryName>Day</EntryName>
+            <StartTime>09:00</StartTime>
+            <BandwidthPercent>100</BandwidthPercent>
+         </Schedule>
+         <Schedule>
+            <EntryNumber>200</EntryNumber>
+            <EntryName>Night</EntryName>
+            <StartTime>21:00</StartTime>
+            <BandwidthPercent>100</BandwidthPercent>
+         </Schedule>
+         <DelayCap-Millis>60000</DelayCap-Millis>
+      </BandwidthConfig>
+   </DownloadConfig>
+   <CarrierURL>http://staging.api.lifepics.com/closed/LCService.asmx/GetCarriers</CarrierURL>
+   <CarrierList>
+      <Version>0</Version>
+      <EnableTracking>false</EnableTracking>
+   </CarrierList>
+   <LocalEnabled>false</LocalEnabled>
+   <LocalConfig>
+      <Version>0</Version>
+      <PollInterval>60000</PollInterval>
+   </LocalConfig>
+   <UploadEnabled>true</UploadEnabled>
+   <UploadConfig>
+      <Version>12</Version>
+      <SecureURL>http://staging.services.lifepics.com/LCUpload.asp</SecureURL>
+      <OrderUploadURL>http://staging.api.lifepics.com/net/LPWS/LPWebService.asmx</OrderUploadURL>
+      <WebServicesURL>http://staging.api.lifepics.com/v3/LPWebService.asmx</WebServicesURL>
+      <UploadSessionURL>http://staging.api.lifepics.com/closed/LCService.asmx</UploadSessionURL>
+      <LocalImageURL>http://staging.api.lifepics.com/closed/UploadLocalImage.aspx</LocalImageURL>
+      <LocalPriorityURL>http://staging.api.lifepics.com/closed/LCService.asmx/GetPriorityList</LocalPriorityURL>
+      <LocalPriorityInterval-Millis>60000</LocalPriorityInterval-Millis>
+      <IdlePollInterval-Millis>1000</IdlePollInterval-Millis>
+      <SuccessiveFailureLimit>10</SuccessiveFailureLimit>
+      <LockdownEnabled>false</LockdownEnabled>
+      <WatermarkEnabled>false</WatermarkEnabled>
+      <ExclusiveEnabled>false</ExclusiveEnabled>
+      <BandwidthConfig>
+         <Version>0</Version>
+         <Schedule>
+            <EntryNumber>100</EntryNumber>
+            <EntryName>Day</EntryName>
+            <StartTime>09:00</StartTime>
+            <BandwidthPercent>100</BandwidthPercent>
+            <Restrict>true</Restrict>
+         </Schedule>
+         <Schedule>
+            <EntryNumber>200</EntryNumber>
+            <EntryName>Night</EntryName>
+            <StartTime>21:00</StartTime>
+            <BandwidthPercent>100</BandwidthPercent>
+         </Schedule>
+         <DelayCap-Millis>60000</DelayCap-Millis>
+      </BandwidthConfig>
+      <TransformConfig>
+         <Version>3</Version>
+         <EnableLimit>true</EnableLimit>
+         <DPI>303</DPI>
+         <XInches>8</XInches>
+         <YInches>10</YInches>
+         <AlwaysCompress>true</AlwaysCompress>
+         <Compression>90</Compression>
+      </TransformConfig>
+   </UploadConfig>
+   <ClaimEnabled>false</ClaimEnabled>
+   <ClaimEmail>anonymous@lifepics.com</ClaimEmail>
+   <PriceListURL>http://staging.services.lifepics.com/LabCenter/PriceList.aspx</PriceListURL>
+   <PriceLists/>
+   <DealerURL>http://staging.services.lifepics.com/LabCenter/GetDealerList.asp</DealerURL>
+   <Dealers/>
+   <PakonEnabled>false</PakonEnabled>
+   <PakonPort>27985</PakonPort>
+   <PollEnabled>true</PollEnabled>
+   <PollConfig>
+      <Version>3</Version>
+      <PollInterval>60000</PollInterval>
+      <ThrottleCount>10</ThrottleCount>
+      <ThrottleInterval>1000</ThrottleInterval>
+      <IgnoreMode>false</IgnoreMode>
+      <ImageDelayInterval>300000</ImageDelayInterval>
+   </PollConfig>
+   <LocalImageConfig>
+      <Version>0</Version>
+      <PollInterval>5000</PollInterval>
+   </LocalImageConfig>
+   <ScanEnabled>false</ScanEnabled>
+   <ScannerPollInterval-Millis>3600000</ScannerPollInterval-Millis>
+   <ScanConfigDLS>
+      <Version>1</Version>
+      <Host/>
+      <Port>8080</Port>
+      <Path>soap/servlet/rpcrouter</Path>
+      <UserName>kiassu</UserName>
+      <Password>kimyaxyz</Password>
+      <ExcludeByID>false</ExcludeByID>
+      <HoldConfirm>false</HoldConfirm>
+   </ScanConfigDLS>
+   <AutoUpdateConfig>
+      <Version>6</Version>
+      <AutoUpdateURL>https://services.lifepics.com/autoupdate.aspBROKEN</AutoUpdateURL>
+      <LabCenter>
+         <CurrentVersion>LabCenter_7_7_6.jar</CurrentVersion>
+      </LabCenter>
+      <Invoice/>
+      <Burner/>
+      <EnableRestart>true</EnableRestart>
+      <RestartHour1>0</RestartHour1>
+      <RestartHour2>3</RestartHour2>
+      <RestartWaitInterval-Millis>60000</RestartWaitInterval-Millis>
+      <AutoConfigURL>http://staging.services.lifepics.com/LabCenter/</AutoConfigURL>
+   </AutoUpdateConfig>
+   <PrintConfig>
+      <Version>25</Version>
+      <Copies>1</Copies>
+      <ShowItems>true</ShowItems>
+      <ShowColor>true</ShowColor>
+      <ProductBarcodeEnable>true</ProductBarcodeEnable>
+      <ProductBarcodeType>EAN13_20_5_5</ProductBarcodeType>
+      <TimeZone>US/Eastern</TimeZone>
+      <DateFormatInvoice>MM-dd-yy h:mm:ss a zzz</DateFormatInvoice>
+      <DateFormatLabel>MM-dd-yy h:mm:ss a</DateFormatLabel>
+      <AccountSummary>true</AccountSummary>
+      <LabelPerQueue>true</LabelPerQueue>
+      <ShowOrderNumber>true</ShowOrderNumber>
+      <OverrideAddress>false</OverrideAddress>
+      <MarkShip>false</MarkShip>
+      <MarkShipUseMessage>false</MarkShipUseMessage>
+      <MarkShipMessage>MAIL ORDER</MarkShipMessage>
+      <MarkPay>false</MarkPay>
+      <MarkPayIncludeTax>false</MarkPayIncludeTax>
+      <MarkPro>false</MarkPro>
+      <MarkPre>false</MarkPre>
+      <MarkPreMessage>PREPAID</MarkPreMessage>
+      <ShowPickupLocation>false</ShowPickupLocation>
+      <SetupInvoice>
+         <Printer>EPSON TM-T20II Receipt5</Printer>
+         <DefaultSize>false</DefaultSize>
+         <Width>5</Width>
+         <Height>5</Height>
+         <MarginTop>0</MarginTop>
+         <MarginBottom>0</MarginBottom>
+         <MarginLeft>0</MarginLeft>
+         <MarginRight>0</MarginRight>
+         <Orientation>PORTRAIT</Orientation>
+         <EnableForHome>false</EnableForHome>
+         <EnableForAccount>false</EnableForAccount>
+      </SetupInvoice>
+      <SetupLabel>
+         <Printer>EPSON TM-T20II Receipt5</Printer>
+         <DefaultSize>false</DefaultSize>
+         <Width>5</Width>
+         <Height>5</Height>
+         <MarginTop>0</MarginTop>
+         <MarginBottom>0</MarginBottom>
+         <MarginLeft>0</MarginLeft>
+         <MarginRight>0</MarginRight>
+         <Orientation>PORTRAIT</Orientation>
+         <EnableForHome>false</EnableForHome>
+         <EnableForAccount>false</EnableForAccount>
+      </SetupLabel>
+      <JpegEnableForHome>false</JpegEnableForHome>
+      <JpegEnableForAccount>false</JpegEnableForAccount>
+      <JpegShowColor>true</JpegShowColor>
+      <JpegWidth>5</JpegWidth>
+      <JpegHeight>5</JpegHeight>
+      <JpegOrientation>PORTRAIT</JpegOrientation>
+      <JpegCompression>75</JpegCompression>
+      <JpegBorderPixels>0</JpegBorderPixels>
+      <BarcodeEnable>false</BarcodeEnable>
+      <BarcodeConfig>
+         <Version>0</Version>
+         <ModulePixels>600</ModulePixels>
+         <HeightPixels>600</HeightPixels>
+         <TextPixels>600</TextPixels>
+      </BarcodeConfig>
+      <BarcodeWidthPixels>1200</BarcodeWidthPixels>
+      <BarcodeOverlapPixels>1200</BarcodeOverlapPixels>
+      <BarcodePrefix/>
+      <BarcodePrefixReplace>true</BarcodePrefixReplace>
+      <BarcodeIncludeTax>false</BarcodeIncludeTax>
+      <ShipPrintLabel>true</ShipPrintLabel>
+      <ShipPrintPostage>false</ShipPrintPostage>
+      <PostageBatchMode>false</PostageBatchMode>
+      <PostageBatchFile>postage.xml</PostageBatchFile>
+      <ProductEnableForHome>false</ProductEnableForHome>
+      <ProductEnableForAccount>false</ProductEnableForAccount>
+      <InstallHint Pattern="|DYMO LabelWriter|s" Printer="todo:Dymo"/>
+      <InstallHint Pattern="|HP Designjet Z3200|s|Canvas|cna|Cover|cna" Printer="todo:HP Poster"/>
+      <InstallHint Pattern="|HP Designjet Z3200|s|Canvas|ca" Printer="todo:HP Canvas"/>
+      <InstallHint Pattern="|HP Designjet Z3200|s|Cover|ca" Printer="todo:HP Cover"/>
+   </PrintConfig>
+   <ProductBarcodeConfig>
+      <Version>0</Version>
+      <EnableMap>true</EnableMap>
+      <ForceMap>true</ForceMap>
+      <Mapping BaseSKU="4x4Print" ProductCode="05217"/>
+      <Mapping BaseSKU="4x5.3-G" ProductCode="04972"/>
+      <Mapping BaseSKU="4x5.3-M" ProductCode="04975"/>
+      <Mapping BaseSKU="5x7FoldedDNP" ProductCode="05044"/>
+      <Mapping BaseSKU="5x7VisionBlock" ProductCode="05270"/>
+      <Mapping BaseSKU="8.5x11Calendar12mMC" ProductCode="05016"/>
+      <Mapping BaseSKU="8.5x11Calendar18months" ProductCode="05203"/>
+      <Mapping BaseSKU="8_5x11_Custom_Cover" ProductCode="05201"/>
+      <Mapping BaseSKU="8x8Print" ProductCode="05230"/>
+      <Mapping BaseSKU="8x10BambooPrint" ProductCode="05440"/>
+      <Mapping BaseSKU="10x8MCOLLAGE" ProductCode="05480"/>
+      <Mapping BaseSKU="10x8MPRNT" ProductCode="05360"/>
+      <Mapping BaseSKU="10x13MCOLLAGE" ProductCode="05500"/>
+      <Mapping BaseSKU="10x13MPRNT" ProductCode="05380"/>
+      <Mapping BaseSKU="11x14VisionWall" ProductCode="05280"/>
+      <Mapping BaseSKU="16x20VisionWall" ProductCode="05290"/>
+      <Mapping BaseSKU="60101-11" ProductCode="04972"/>
+      <Mapping BaseSKU="60101-12" ProductCode="04975"/>
+      <Mapping BaseSKU="60101-13" ProductCode="04973"/>
+      <Mapping BaseSKU="60101-14" ProductCode="04976"/>
+      <Mapping BaseSKU="60101-15" ProductCode="04978"/>
+      <Mapping BaseSKU="60101-16" ProductCode="04982"/>
+      <Mapping BaseSKU="60101-17" ProductCode="04979"/>
+      <Mapping BaseSKU="60101-18" ProductCode="04983"/>
+      <Mapping BaseSKU="60101-19" ProductCode="04985"/>
+      <Mapping BaseSKU="60101-20" ProductCode="04985"/>
+      <Mapping BaseSKU="60101-21" ProductCode="04985"/>
+      <Mapping BaseSKU="60101-22" ProductCode="04985"/>
+      <Mapping BaseSKU="60101-79" ProductCode="05112"/>
+      <Mapping BaseSKU="60101-81" ProductCode="04985"/>
+      <Mapping BaseSKU="60201-7290" ProductCode="05087"/>
+      <Mapping BaseSKU="60201-7302" ProductCode="05069"/>
+      <Mapping BaseSKU="60201-7310" ProductCode="05084"/>
+      <Mapping BaseSKU="60201-7322" ProductCode="05178"/>
+      <Mapping BaseSKU="60201-8008" ProductCode="05186"/>
+      <Mapping BaseSKU="60201-8009" ProductCode="05206"/>
+      <Mapping BaseSKU="60201-8010" ProductCode="05206"/>
+      <Mapping BaseSKU="60201-8012" ProductCode="05184"/>
+      <Mapping BaseSKU="60201-8014" ProductCode="05184"/>
+      <Mapping BaseSKU="60501-24" ProductCode="05151"/>
+      <Mapping BaseSKU="60501-40" ProductCode="05021"/>
+      <Mapping BaseSKU="60501-41" ProductCode="05021"/>
+      <Mapping BaseSKU="60501-43" ProductCode="05024"/>
+      <Mapping BaseSKU="60501-44" ProductCode="05024"/>
+      <Mapping BaseSKU="60501-45" ProductCode="05025"/>
+      <Mapping BaseSKU="60501-47" ProductCode="05025"/>
+      <Mapping BaseSKU="60501-49" ProductCode="05028"/>
+      <Mapping BaseSKU="60501-50" ProductCode="05020"/>
+      <Mapping BaseSKU="60501-52" ProductCode="05020"/>
+      <Mapping BaseSKU="60501-55" ProductCode="05136"/>
+      <Mapping BaseSKU="60501-58" ProductCode="05136"/>
+      <Mapping BaseSKU="60501-134" ProductCode="05062"/>
+      <Mapping BaseSKU="60501-5783" ProductCode="05157"/>
+      <Mapping BaseSKU="61001-34" ProductCode="05034"/>
+      <Mapping BaseSKU="61001-35" ProductCode="05034"/>
+      <Mapping BaseSKU="61001-36" ProductCode="05035"/>
+      <Mapping BaseSKU="61001-37" ProductCode="05035"/>
+      <Mapping BaseSKU="61001_8_pages" ProductCode="05011"/>
+      <Mapping BaseSKU="61001_12_pages" ProductCode="05013"/>
+      <Mapping BaseSKU="62001-18months" ProductCode="05117"/>
+      <Mapping BaseSKU="62001-59" ProductCode="05017"/>
+      <Mapping BaseSKU="62001-64" ProductCode="05016"/>
+      <Mapping BaseSKU="62001-66" ProductCode="14204"/>
+      <Mapping BaseSKU="65001-11" ProductCode="04973"/>
+      <Mapping BaseSKU="65001-12" ProductCode="04976"/>
+      <Mapping BaseSKU="65001-13" ProductCode="05041"/>
+      <Mapping BaseSKU="65001-14" ProductCode="05041"/>
+      <Mapping BaseSKU="65001-15" ProductCode="04978"/>
+      <Mapping BaseSKU="65001-16" ProductCode="04982"/>
+      <Mapping BaseSKU="65001-17" ProductCode="05042"/>
+      <Mapping BaseSKU="65001-18" ProductCode="05042"/>
+      <Mapping BaseSKU="65001-96" ProductCode="05043"/>
+      <Mapping BaseSKU="65001-5765" ProductCode="05043"/>
+      <Mapping BaseSKU="65501-29" ProductCode="05044"/>
+      <Mapping BaseSKU="65501-30" ProductCode="05044"/>
+      <Mapping BaseSKU="66050-6773" ProductCode="05063"/>
+      <Mapping BaseSKU="66050-6775" ProductCode="05065"/>
+      <Mapping BaseSKU="66050-6777" ProductCode="05064"/>
+      <Mapping BaseSKU="66050-6779" ProductCode="05066"/>
+      <Mapping BaseSKU="66050-6781" ProductCode="05067"/>
+      <Mapping BaseSKU="66050-8003" ProductCode="05179"/>
+      <Mapping BaseSKU="66050-8004" ProductCode="05204"/>
+      <Mapping BaseSKU="66050-8005" ProductCode="05205"/>
+      <Mapping BaseSKU="66050-8006" ProductCode="05182"/>
+      <Mapping BaseSKU="DVD" ProductCode="05096"/>
+      <Mapping BaseSKU="LPICCAL01" ProductCode="05016"/>
+      <Mapping BaseSKU="Passport Photo" ProductCode="05014"/>
+   </ProductBarcodeConfig>
+</Config>

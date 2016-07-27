@@ -1,0 +1,101 @@
+<html>
+<body>
+
+Short discussion of package dependencies.
+The details will probably not be up to date,
+but the general outline should be sound.<p>
+
+<b>Launcher</b><p>
+
+The launcher application uses just the one package <u>launch</u>,
+which must be self-contained.<p>
+
+<b>Library</b><p>
+
+Most of the remaining packages form a reusable library of code
+that is shared by LabCenter and other applications.<p>
+
+The package <u>core</u> contains fundamental utilities that are
+widely used.  All other packages probably depend on the core.<p>
+
+Other package dependencies should be moderately rare.
+The packages can be organized into four layers or units.<p>
+
+<blockquote>
+
+meta<br>
+object<br>
+<br>
+struct<br>
+misc<br>
+<br>
+table<br>
+thread<br>
+<br>
+gui<br>
+net<br>
+
+</blockquote>
+
+Here are the actual dependencies between packages.<p>
+
+<blockquote>
+
+meta <tt>-></tt> (none)<br>
+object <tt>-></tt> (none)<br>
+<br>
+struct <tt>-></tt> meta object<br>
+misc <tt>-></tt> meta object struct (and launch)<br>
+<br>
+table <tt>-></tt> meta object<br>
+thread <tt>-></tt> meta object table<br>
+<br>
+gui <tt>-></tt> meta object struct misc table thread<br>
+net <tt>-></tt> meta object struct misc thread<br>
+
+</blockquote>
+
+If you compile the packages in that order, that would
+be an efficient way to go about it.<p>
+
+If you want, you can get an updated list by searching for
+the regular expression "import com\.lifepics\.neuron\.[^c]"
+and ignoring results from non-library packages.<p>
+
+The library also includes the <u>launch</u> package
+since there are a few calls into it from <u>misc</u>.<p>
+
+<b>LabCenter</b><p>
+
+The code for LabCenter lives in the three packages <u>axon</u> (for upload),
+<u>dendron</u> (for download), and <u>app</u>.  The first two depend only
+on the library packages, while the third depends on that and the first two.<p>
+
+<b>Other Applications</b><p>
+
+Here's what some other packages are for.<p>
+
+<blockquote>
+
+config - ConfigCenter (not in same SourceSafe tree)<br>
+admin - LabCenter Admin<br>
+<br>
+install - LabCenter Install, general-purpose installer configurable at run time<br>
+helper - used to build helper.jar, a jar that contains installer helper functions<br>
+<br>
+setup - GUI installer component for Ritz<br>
+lookup - unit that knows how to find the K-number on a kiosk<br>
+
+</blockquote>
+
+Any packages not listed here are probably for other applications.<p>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+run command
+C:\WINDOWS\sysWOW64\javaw.exe -jar BaseLauncher.jar labcenter_version run
+java version "1.8.0_91"
+
+</body>
+</html>
+

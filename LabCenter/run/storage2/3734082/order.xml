@@ -1,0 +1,186 @@
+<?xml-stylesheet type="text/xsl" href="C:\LifePics\LabCenter\run\invoice.xsl"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Order AppVersion="176" ID="3734082" PartnerOrderID="" Version="2">
+  <OrderTime>2016-07-14 12:15:58</OrderTime>
+  <OrderSource>Web</OrderSource>
+  <Dealer Name="Meijer #19">
+    <Street1>700 W Norton Ave</Street1>
+    <Street2/>
+    <City>Muskegon</City>
+    <State>MI</State>
+    <ZIP>49441</ZIP>
+    <Country>USA</Country>
+    <MerchantID>5724</MerchantID>
+    <LocationNote/>
+    <StoreNumber>19</StoreNumber>
+    <WholesaleFulfillmentID>19</WholesaleFulfillmentID>
+    <Header1/>
+    <Header2/>
+  </Dealer>
+  <Portal Name=""/>
+  <Customer ID="" Number="10960009">
+    <First>j</First>
+    <Last>w</Last>
+    <PreferredCustomerNumber/>
+    <BillTo>
+      <First>j</First>
+      <Last>w</Last>
+      <Company/>
+      <Street1/>
+      <Street2/>
+      <AltCSZ/>
+      <City/>
+      <State/>
+      <ZIP/>
+      <Phone>123456789</Phone>
+      <Country/>
+    </BillTo>
+    <ShipTo>
+      <First/>
+      <Last/>
+      <Company/>
+      <Street1/>
+      <Street2/>
+      <AltCSZ/>
+      <City/>
+      <State/>
+      <ZIP/>
+      <Phone/>
+      <Country/>
+      <Comment>Pickup at Meijer #19</Comment>
+      <ShippingDescription/>
+    </ShipTo>
+  </Customer>
+  <SpecialInstructions>
+    <Message/>
+  </SpecialInstructions>
+  <Payment>
+    <Type>Pay In Store</Type>
+    <CardType/>
+    <Account/>
+    <Expiration/>
+    <Authorization/>
+    <Amount>0.95</Amount>
+  </Payment>
+  <OrderSummary>
+    <ShipMethod>PICKUP at Meijer #19</ShipMethod>
+    <OriginalShipMethod>PICKUP</OriginalShipMethod>
+    <Product>
+      <Description>4x6 Print (Print to Store) Glossy</Description>
+      <BaseSku>60101-11</BaseSku><SKU>60101-11</SKU>
+      <Attributes/>
+      <QTY>3</QTY>
+      <Price>0.30</Price>
+      <Subtotal>0.90</Subtotal>
+      <Note/>
+    </Product>
+    <ProducedHere>true</ProducedHere>
+  </OrderSummary>
+  <Items>
+    <Item ID="1">
+      <BaseSku>60101-11</BaseSku><ProductSku>60101-11 Glossy</ProductSku>
+      <Attributes>
+        <Attribute>
+          <GroupName>Finish</GroupName>
+          <Value>Glossy</Value>
+          <PriceOffset>0.00</PriceOffset>
+        </Attribute>
+      </Attributes>
+      <GiftText/>
+      <AffiliateSku>60101</AffiliateSku>
+      <ProductType>Standard</ProductType>
+      <ProductDescription>4x6 Print (Print to Store)</ProductDescription>
+      <PrintShortDimension>4</PrintShortDimension>
+      <PrintLongDimension>6</PrintLongDimension>
+      <PrintSizeUnit>Inch</PrintSizeUnit>
+      <ResolutionWarning/>
+      <DisplayQty>1</DisplayQty>
+      <Qty>1</Qty>
+      <Price>0.30</Price>
+      <Total>0.30</Total>
+      <Images>
+        <Image ID="1">
+          <ImageURL>local:j=867306911&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</ImageURL>
+          <ImageName>867306911_154312532.jpg</ImageName>
+          <OrigImageName>image.jpg</OrigImageName>
+          <ImageDescription/>
+        </Image>
+      </Images>
+    </Item>
+    <Item ID="2">
+      <BaseSku>60101-11</BaseSku><ProductSku>60101-11 Glossy</ProductSku>
+      <Attributes>
+        <Attribute>
+          <GroupName>Finish</GroupName>
+          <Value>Glossy</Value>
+          <PriceOffset>0.00</PriceOffset>
+        </Attribute>
+      </Attributes>
+      <GiftText/>
+      <AffiliateSku>60101</AffiliateSku>
+      <ProductType>Standard</ProductType>
+      <ProductDescription>4x6 Print (Print to Store)</ProductDescription>
+      <PrintShortDimension>4</PrintShortDimension>
+      <PrintLongDimension>6</PrintLongDimension>
+      <PrintSizeUnit>Inch</PrintSizeUnit>
+      <ResolutionWarning/>
+      <DisplayQty>1</DisplayQty>
+      <Qty>1</Qty>
+      <Price>0.30</Price>
+      <Total>0.30</Total>
+      <Images>
+        <Image ID="1">
+          <ImageURL>local:j=867306912&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</ImageURL>
+          <ImageName>867306912_154312533.jpg</ImageName>
+          <OrigImageName>image.jpg</OrigImageName>
+          <ImageDescription/>
+        </Image>
+      </Images>
+    </Item>
+    <Item ID="3">
+      <BaseSku>60101-11</BaseSku><ProductSku>60101-11 Glossy</ProductSku>
+      <Attributes>
+        <Attribute>
+          <GroupName>Finish</GroupName>
+          <Value>Glossy</Value>
+          <PriceOffset>0.00</PriceOffset>
+        </Attribute>
+      </Attributes>
+      <GiftText/>
+      <AffiliateSku>60101</AffiliateSku>
+      <ProductType>Standard</ProductType>
+      <ProductDescription>4x6 Print (Print to Store)</ProductDescription>
+      <PrintShortDimension>4</PrintShortDimension>
+      <PrintLongDimension>6</PrintLongDimension>
+      <PrintSizeUnit>Inch</PrintSizeUnit>
+      <ResolutionWarning/>
+      <DisplayQty>1</DisplayQty>
+      <Qty>1</Qty>
+      <Price>0.30</Price>
+      <Total>0.30</Total>
+      <Images>
+        <Image ID="1">
+          <ImageURL>local:j=867306913&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</ImageURL>
+          <ImageName>867306913_154312534.jpg</ImageName>
+          <OrigImageName>image.jpg</OrigImageName>
+          <ImageDescription/>
+        </Image>
+      </Images>
+    </Item>
+  </Items>
+  <Addons/>
+  <Currency>$</Currency>
+  <SubTotal>0.90</SubTotal>
+  <TaxIsGST>false</TaxIsGST>
+  <TaxRate>6.00</TaxRate>
+  <Tax>0.05</Tax>
+  <Shipping>0.00</Shipping>
+  <ShippingCost>0.00</ShippingCost>
+  <Discount>
+    <FreePrints>0.00</FreePrints>
+    <FreeShipping>0.00</FreeShipping>
+    <Credit>0.00</Credit>
+    <PercentDiscount>0.00</PercentDiscount>
+    <PermanentDiscount>0.00</PermanentDiscount>
+  </Discount>
+  <GrandTotal>0.95</GrandTotal>
+</Order>

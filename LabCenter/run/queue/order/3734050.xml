@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Order>
+   <Version>3</Version>
+   <OrderID>3734050</OrderID>
+   <OrderDir>C:\LifePics\LabCenter\run\storage2\3734050</OrderDir>
+   <Status>READY</Status>
+   <Hold>NONE</Hold>
+   <RecmodDate>2016-06-16 08:06:19</RecmodDate>
+   <FirstName>test</FirstName>
+   <LastName>test</LastName>
+   <Email/>
+   <LPCustomerID>10958350</LPCustomerID>
+   <Phone>(555) 555-5555</Phone>
+   <DealerName>Meijer #19</DealerName>
+   <Subtotal>2.40</Subtotal>
+   <DiscountFreePrints>0.00</DiscountFreePrints>
+   <DiscountCredit>0.00</DiscountCredit>
+   <DiscountPercent>0.00</DiscountPercent>
+   <DiscountPermanent>0.00</DiscountPermanent>
+   <ShippingAmount>0.00</ShippingAmount>
+   <TaxAmount>0.14</TaxAmount>
+   <GrandTotal>2.54</GrandTotal>
+   <Company/>
+   <Street1/>
+   <Street2/>
+   <City/>
+   <State/>
+   <ZipCode/>
+   <Country/>
+   <ShipCompany/>
+   <ShipStreet1/>
+   <ShipStreet2/>
+   <ShipCity/>
+   <ShipState/>
+   <ShipZipCode/>
+   <ShipCountry/>
+   <ShipMethod>
+      <Name>PICKUP at Meijer #19</Name>
+      <Product>4x6 Print (Print to Store) Glossy</Product>
+      <Product>4x6 Print (Print to Store) Matte</Product>
+   </ShipMethod>
+   <InvoiceDate>2016-06-16 09:05:29 -0600</InvoiceDate>
+   <DueStatus>NONE</DueStatus>
+   <Format>FLAT</Format>
+   <Item>
+      <Filename>image.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-12 Finish Matte</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image_2.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-12 Finish Matte</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image_2.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image_3.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-11 Finish Glossy</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image_4.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-12 Finish Matte</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image_5.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-12 Finish Matte</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <Item>
+      <Filename>image_6.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <Sku>60101-12 Finish Matte</Sku>
+      <Quantity>1</Quantity>
+   </Item>
+   <File>
+      <Filename>image.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <DownloadURL>local:j=867278972&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+   <File>
+      <Filename>image_2.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <OriginalFilename>image.jpg</OriginalFilename>
+      <DownloadURL>local:j=867278973&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+   <File>
+      <Filename>image_3.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <OriginalFilename>image.jpg</OriginalFilename>
+      <DownloadURL>local:j=867278974&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+   <File>
+      <Filename>image_4.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <OriginalFilename>image.jpg</OriginalFilename>
+      <DownloadURL>local:j=867278975&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+   <File>
+      <Filename>image_5.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <OriginalFilename>image.jpg</OriginalFilename>
+      <DownloadURL>local:j=867278976&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+   <File>
+      <Filename>image_6.jpg</Filename>
+      <Status>RECEIVED</Status>
+      <OriginalFilename>image.jpg</OriginalFilename>
+      <DownloadURL>local:j=867278977&amp;q=80&amp;dpi=300&amp;ep=Crop%2c0%2c85%2c3072%2c2048&amp;pw=6.0000&amp;ph=4.0000</DownloadURL>
+   </File>
+</Order>
